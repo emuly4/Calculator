@@ -1,0 +1,4 @@
+# Hashes of file build rules.
+2eecca673302632607f119587fed6104 CMakeFiles/Calculator
+2eecca673302632607f119587fed6104 CMakeFiles/LUFA_USB
+929a276f8c3b3b4b5b105498b762e153 CMakeFiles/erase_program

@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "Calc-atmega32u4.map"
   "CMakeFiles/LUFA_USB"
 )
 

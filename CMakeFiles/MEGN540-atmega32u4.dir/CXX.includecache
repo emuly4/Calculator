@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mule/Documents/Calculator/c_lib/Ring_Buffer.cpp
+Ring_Buffer.h
+/home/mule/Documents/Calculator/c_lib/Ring_Buffer.h
+stdio.h
+-
+
+/home/mule/Documents/Calculator/c_lib/Ring_Buffer.h
+stdint.h
+/home/mule/Documents/Calculator/c_lib/stdint.h
+
+/home/mule/Documents/Calculator/c_lib/Task_Management.cpp
+Task_Management.h
+/home/mule/Documents/Calculator/c_lib/Task_Management.h
+Timing.h
+/home/mule/Documents/Calculator/c_lib/Timing.h
+
+/home/mule/Documents/Calculator/c_lib/Task_Management.h
+stdbool.h
+-
+Timing.h
+/home/mule/Documents/Calculator/c_lib/Timing.h
+
+/home/mule/Documents/Calculator/c_lib/Timing.cpp
+Timing.h
+/home/mule/Documents/Calculator/c_lib/Timing.h
+
+/home/mule/Documents/Calculator/c_lib/Timing.h
+avr/io.h
+-
+avr/interrupt.h
+-
+ctype.h
+-
+

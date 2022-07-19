@@ -57,402 +57,402 @@ include CMakeFiles/LUFA_USB-atmega32u4.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/LUFA_USB-atmega32u4.dir/flags.make
 
-CMakeFiles/LUFA_USB-atmega32u4.dir/c_lib/USB_Config/Descriptors.c.o: CMakeFiles/LUFA_USB-atmega32u4.dir/flags.make
-CMakeFiles/LUFA_USB-atmega32u4.dir/c_lib/USB_Config/Descriptors.c.o: c_lib/USB_Config/Descriptors.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mule/Documents/Calculator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/LUFA_USB-atmega32u4.dir/c_lib/USB_Config/Descriptors.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/LUFA_USB-atmega32u4.dir/c_lib/USB_Config/Descriptors.c.o   -c /home/mule/Documents/Calculator/c_lib/USB_Config/Descriptors.c
+CMakeFiles/LUFA_USB-atmega32u4.dir/c_lib/USB_Config/Descriptors.c.obj: CMakeFiles/LUFA_USB-atmega32u4.dir/flags.make
+CMakeFiles/LUFA_USB-atmega32u4.dir/c_lib/USB_Config/Descriptors.c.obj: c_lib/USB_Config/Descriptors.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mule/Documents/Calculator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/LUFA_USB-atmega32u4.dir/c_lib/USB_Config/Descriptors.c.obj"
+	/usr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/LUFA_USB-atmega32u4.dir/c_lib/USB_Config/Descriptors.c.obj   -c /home/mule/Documents/Calculator/c_lib/USB_Config/Descriptors.c
 
 CMakeFiles/LUFA_USB-atmega32u4.dir/c_lib/USB_Config/Descriptors.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LUFA_USB-atmega32u4.dir/c_lib/USB_Config/Descriptors.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mule/Documents/Calculator/c_lib/USB_Config/Descriptors.c > CMakeFiles/LUFA_USB-atmega32u4.dir/c_lib/USB_Config/Descriptors.c.i
+	/usr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mule/Documents/Calculator/c_lib/USB_Config/Descriptors.c > CMakeFiles/LUFA_USB-atmega32u4.dir/c_lib/USB_Config/Descriptors.c.i
 
 CMakeFiles/LUFA_USB-atmega32u4.dir/c_lib/USB_Config/Descriptors.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LUFA_USB-atmega32u4.dir/c_lib/USB_Config/Descriptors.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mule/Documents/Calculator/c_lib/USB_Config/Descriptors.c -o CMakeFiles/LUFA_USB-atmega32u4.dir/c_lib/USB_Config/Descriptors.c.s
+	/usr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mule/Documents/Calculator/c_lib/USB_Config/Descriptors.c -o CMakeFiles/LUFA_USB-atmega32u4.dir/c_lib/USB_Config/Descriptors.c.s
 
-CMakeFiles/LUFA_USB-atmega32u4.dir/c_lib/USB_Config/Descriptors.c.o.requires:
+CMakeFiles/LUFA_USB-atmega32u4.dir/c_lib/USB_Config/Descriptors.c.obj.requires:
 
-.PHONY : CMakeFiles/LUFA_USB-atmega32u4.dir/c_lib/USB_Config/Descriptors.c.o.requires
+.PHONY : CMakeFiles/LUFA_USB-atmega32u4.dir/c_lib/USB_Config/Descriptors.c.obj.requires
 
-CMakeFiles/LUFA_USB-atmega32u4.dir/c_lib/USB_Config/Descriptors.c.o.provides: CMakeFiles/LUFA_USB-atmega32u4.dir/c_lib/USB_Config/Descriptors.c.o.requires
-	$(MAKE) -f CMakeFiles/LUFA_USB-atmega32u4.dir/build.make CMakeFiles/LUFA_USB-atmega32u4.dir/c_lib/USB_Config/Descriptors.c.o.provides.build
-.PHONY : CMakeFiles/LUFA_USB-atmega32u4.dir/c_lib/USB_Config/Descriptors.c.o.provides
+CMakeFiles/LUFA_USB-atmega32u4.dir/c_lib/USB_Config/Descriptors.c.obj.provides: CMakeFiles/LUFA_USB-atmega32u4.dir/c_lib/USB_Config/Descriptors.c.obj.requires
+	$(MAKE) -f CMakeFiles/LUFA_USB-atmega32u4.dir/build.make CMakeFiles/LUFA_USB-atmega32u4.dir/c_lib/USB_Config/Descriptors.c.obj.provides.build
+.PHONY : CMakeFiles/LUFA_USB-atmega32u4.dir/c_lib/USB_Config/Descriptors.c.obj.provides
 
-CMakeFiles/LUFA_USB-atmega32u4.dir/c_lib/USB_Config/Descriptors.c.o.provides.build: CMakeFiles/LUFA_USB-atmega32u4.dir/c_lib/USB_Config/Descriptors.c.o
+CMakeFiles/LUFA_USB-atmega32u4.dir/c_lib/USB_Config/Descriptors.c.obj.provides.build: CMakeFiles/LUFA_USB-atmega32u4.dir/c_lib/USB_Config/Descriptors.c.obj
 
 
-CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.c.o: CMakeFiles/LUFA_USB-atmega32u4.dir/flags.make
-CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.c.o: lufa/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mule/Documents/Calculator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.c.o   -c /home/mule/Documents/Calculator/lufa/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.c
+CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.c.obj: CMakeFiles/LUFA_USB-atmega32u4.dir/flags.make
+CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.c.obj: lufa/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mule/Documents/Calculator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.c.obj"
+	/usr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.c.obj   -c /home/mule/Documents/Calculator/lufa/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.c
 
 CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mule/Documents/Calculator/lufa/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.c > CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.c.i
+	/usr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mule/Documents/Calculator/lufa/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.c > CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.c.i
 
 CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mule/Documents/Calculator/lufa/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.c -o CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.c.s
+	/usr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mule/Documents/Calculator/lufa/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.c -o CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.c.s
 
-CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.c.o.requires:
+CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.c.obj.requires:
 
-.PHONY : CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.c.o.requires
+.PHONY : CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.c.obj.requires
 
-CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.c.o.provides: CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.c.o.requires
-	$(MAKE) -f CMakeFiles/LUFA_USB-atmega32u4.dir/build.make CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.c.o.provides.build
-.PHONY : CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.c.o.provides
+CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.c.obj.provides: CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.c.obj.requires
+	$(MAKE) -f CMakeFiles/LUFA_USB-atmega32u4.dir/build.make CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.c.obj.provides.build
+.PHONY : CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.c.obj.provides
 
-CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.c.o.provides.build: CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.c.o
+CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.c.obj.provides.build: CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.c.obj
 
 
-CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.c.o: CMakeFiles/LUFA_USB-atmega32u4.dir/flags.make
-CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.c.o: lufa/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mule/Documents/Calculator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.c.o   -c /home/mule/Documents/Calculator/lufa/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.c
+CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.c.obj: CMakeFiles/LUFA_USB-atmega32u4.dir/flags.make
+CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.c.obj: lufa/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mule/Documents/Calculator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.c.obj"
+	/usr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.c.obj   -c /home/mule/Documents/Calculator/lufa/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.c
 
 CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mule/Documents/Calculator/lufa/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.c > CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.c.i
+	/usr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mule/Documents/Calculator/lufa/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.c > CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.c.i
 
 CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mule/Documents/Calculator/lufa/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.c -o CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.c.s
+	/usr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mule/Documents/Calculator/lufa/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.c -o CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.c.s
 
-CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.c.o.requires:
+CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.c.obj.requires:
 
-.PHONY : CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.c.o.requires
+.PHONY : CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.c.obj.requires
 
-CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.c.o.provides: CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.c.o.requires
-	$(MAKE) -f CMakeFiles/LUFA_USB-atmega32u4.dir/build.make CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.c.o.provides.build
-.PHONY : CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.c.o.provides
+CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.c.obj.provides: CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.c.obj.requires
+	$(MAKE) -f CMakeFiles/LUFA_USB-atmega32u4.dir/build.make CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.c.obj.provides.build
+.PHONY : CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.c.obj.provides
 
-CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.c.o.provides.build: CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.c.o
+CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.c.obj.provides.build: CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.c.obj
 
 
-CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/ConfigDescriptors.c.o: CMakeFiles/LUFA_USB-atmega32u4.dir/flags.make
-CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/ConfigDescriptors.c.o: lufa/LUFA/Drivers/USB/Core/ConfigDescriptors.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mule/Documents/Calculator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/ConfigDescriptors.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/ConfigDescriptors.c.o   -c /home/mule/Documents/Calculator/lufa/LUFA/Drivers/USB/Core/ConfigDescriptors.c
+CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/ConfigDescriptors.c.obj: CMakeFiles/LUFA_USB-atmega32u4.dir/flags.make
+CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/ConfigDescriptors.c.obj: lufa/LUFA/Drivers/USB/Core/ConfigDescriptors.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mule/Documents/Calculator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/ConfigDescriptors.c.obj"
+	/usr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/ConfigDescriptors.c.obj   -c /home/mule/Documents/Calculator/lufa/LUFA/Drivers/USB/Core/ConfigDescriptors.c
 
 CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/ConfigDescriptors.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/ConfigDescriptors.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mule/Documents/Calculator/lufa/LUFA/Drivers/USB/Core/ConfigDescriptors.c > CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/ConfigDescriptors.c.i
+	/usr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mule/Documents/Calculator/lufa/LUFA/Drivers/USB/Core/ConfigDescriptors.c > CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/ConfigDescriptors.c.i
 
 CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/ConfigDescriptors.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/ConfigDescriptors.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mule/Documents/Calculator/lufa/LUFA/Drivers/USB/Core/ConfigDescriptors.c -o CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/ConfigDescriptors.c.s
+	/usr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mule/Documents/Calculator/lufa/LUFA/Drivers/USB/Core/ConfigDescriptors.c -o CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/ConfigDescriptors.c.s
 
-CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/ConfigDescriptors.c.o.requires:
+CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/ConfigDescriptors.c.obj.requires:
 
-.PHONY : CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/ConfigDescriptors.c.o.requires
+.PHONY : CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/ConfigDescriptors.c.obj.requires
 
-CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/ConfigDescriptors.c.o.provides: CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/ConfigDescriptors.c.o.requires
-	$(MAKE) -f CMakeFiles/LUFA_USB-atmega32u4.dir/build.make CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/ConfigDescriptors.c.o.provides.build
-.PHONY : CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/ConfigDescriptors.c.o.provides
+CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/ConfigDescriptors.c.obj.provides: CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/ConfigDescriptors.c.obj.requires
+	$(MAKE) -f CMakeFiles/LUFA_USB-atmega32u4.dir/build.make CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/ConfigDescriptors.c.obj.provides.build
+.PHONY : CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/ConfigDescriptors.c.obj.provides
 
-CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/ConfigDescriptors.c.o.provides.build: CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/ConfigDescriptors.c.o
+CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/ConfigDescriptors.c.obj.provides.build: CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/ConfigDescriptors.c.obj
 
 
-CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/Events.c.o: CMakeFiles/LUFA_USB-atmega32u4.dir/flags.make
-CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/Events.c.o: lufa/LUFA/Drivers/USB/Core/Events.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mule/Documents/Calculator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/Events.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/Events.c.o   -c /home/mule/Documents/Calculator/lufa/LUFA/Drivers/USB/Core/Events.c
+CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/Events.c.obj: CMakeFiles/LUFA_USB-atmega32u4.dir/flags.make
+CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/Events.c.obj: lufa/LUFA/Drivers/USB/Core/Events.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mule/Documents/Calculator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/Events.c.obj"
+	/usr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/Events.c.obj   -c /home/mule/Documents/Calculator/lufa/LUFA/Drivers/USB/Core/Events.c
 
 CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/Events.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/Events.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mule/Documents/Calculator/lufa/LUFA/Drivers/USB/Core/Events.c > CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/Events.c.i
+	/usr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mule/Documents/Calculator/lufa/LUFA/Drivers/USB/Core/Events.c > CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/Events.c.i
 
 CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/Events.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/Events.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mule/Documents/Calculator/lufa/LUFA/Drivers/USB/Core/Events.c -o CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/Events.c.s
+	/usr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mule/Documents/Calculator/lufa/LUFA/Drivers/USB/Core/Events.c -o CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/Events.c.s
 
-CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/Events.c.o.requires:
+CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/Events.c.obj.requires:
 
-.PHONY : CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/Events.c.o.requires
+.PHONY : CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/Events.c.obj.requires
 
-CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/Events.c.o.provides: CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/Events.c.o.requires
-	$(MAKE) -f CMakeFiles/LUFA_USB-atmega32u4.dir/build.make CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/Events.c.o.provides.build
-.PHONY : CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/Events.c.o.provides
+CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/Events.c.obj.provides: CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/Events.c.obj.requires
+	$(MAKE) -f CMakeFiles/LUFA_USB-atmega32u4.dir/build.make CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/Events.c.obj.provides.build
+.PHONY : CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/Events.c.obj.provides
 
-CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/Events.c.o.provides.build: CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/Events.c.o
+CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/Events.c.obj.provides.build: CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/Events.c.obj
 
 
-CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/USBTask.c.o: CMakeFiles/LUFA_USB-atmega32u4.dir/flags.make
-CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/USBTask.c.o: lufa/LUFA/Drivers/USB/Core/USBTask.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mule/Documents/Calculator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/USBTask.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/USBTask.c.o   -c /home/mule/Documents/Calculator/lufa/LUFA/Drivers/USB/Core/USBTask.c
+CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/USBTask.c.obj: CMakeFiles/LUFA_USB-atmega32u4.dir/flags.make
+CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/USBTask.c.obj: lufa/LUFA/Drivers/USB/Core/USBTask.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mule/Documents/Calculator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/USBTask.c.obj"
+	/usr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/USBTask.c.obj   -c /home/mule/Documents/Calculator/lufa/LUFA/Drivers/USB/Core/USBTask.c
 
 CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/USBTask.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/USBTask.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mule/Documents/Calculator/lufa/LUFA/Drivers/USB/Core/USBTask.c > CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/USBTask.c.i
+	/usr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mule/Documents/Calculator/lufa/LUFA/Drivers/USB/Core/USBTask.c > CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/USBTask.c.i
 
 CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/USBTask.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/USBTask.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mule/Documents/Calculator/lufa/LUFA/Drivers/USB/Core/USBTask.c -o CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/USBTask.c.s
+	/usr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mule/Documents/Calculator/lufa/LUFA/Drivers/USB/Core/USBTask.c -o CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/USBTask.c.s
 
-CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/USBTask.c.o.requires:
+CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/USBTask.c.obj.requires:
 
-.PHONY : CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/USBTask.c.o.requires
+.PHONY : CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/USBTask.c.obj.requires
 
-CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/USBTask.c.o.provides: CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/USBTask.c.o.requires
-	$(MAKE) -f CMakeFiles/LUFA_USB-atmega32u4.dir/build.make CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/USBTask.c.o.provides.build
-.PHONY : CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/USBTask.c.o.provides
+CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/USBTask.c.obj.provides: CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/USBTask.c.obj.requires
+	$(MAKE) -f CMakeFiles/LUFA_USB-atmega32u4.dir/build.make CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/USBTask.c.obj.provides.build
+.PHONY : CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/USBTask.c.obj.provides
 
-CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/USBTask.c.o.provides.build: CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/USBTask.c.o
+CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/USBTask.c.obj.provides.build: CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/USBTask.c.obj
 
 
-CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Class/Common/HIDParser.c.o: CMakeFiles/LUFA_USB-atmega32u4.dir/flags.make
-CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Class/Common/HIDParser.c.o: lufa/LUFA/Drivers/USB/Class/Common/HIDParser.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mule/Documents/Calculator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Class/Common/HIDParser.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Class/Common/HIDParser.c.o   -c /home/mule/Documents/Calculator/lufa/LUFA/Drivers/USB/Class/Common/HIDParser.c
+CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Class/Common/HIDParser.c.obj: CMakeFiles/LUFA_USB-atmega32u4.dir/flags.make
+CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Class/Common/HIDParser.c.obj: lufa/LUFA/Drivers/USB/Class/Common/HIDParser.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mule/Documents/Calculator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Class/Common/HIDParser.c.obj"
+	/usr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Class/Common/HIDParser.c.obj   -c /home/mule/Documents/Calculator/lufa/LUFA/Drivers/USB/Class/Common/HIDParser.c
 
 CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Class/Common/HIDParser.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Class/Common/HIDParser.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mule/Documents/Calculator/lufa/LUFA/Drivers/USB/Class/Common/HIDParser.c > CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Class/Common/HIDParser.c.i
+	/usr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mule/Documents/Calculator/lufa/LUFA/Drivers/USB/Class/Common/HIDParser.c > CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Class/Common/HIDParser.c.i
 
 CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Class/Common/HIDParser.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Class/Common/HIDParser.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mule/Documents/Calculator/lufa/LUFA/Drivers/USB/Class/Common/HIDParser.c -o CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Class/Common/HIDParser.c.s
+	/usr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mule/Documents/Calculator/lufa/LUFA/Drivers/USB/Class/Common/HIDParser.c -o CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Class/Common/HIDParser.c.s
 
-CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Class/Common/HIDParser.c.o.requires:
+CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Class/Common/HIDParser.c.obj.requires:
 
-.PHONY : CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Class/Common/HIDParser.c.o.requires
+.PHONY : CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Class/Common/HIDParser.c.obj.requires
 
-CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Class/Common/HIDParser.c.o.provides: CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Class/Common/HIDParser.c.o.requires
-	$(MAKE) -f CMakeFiles/LUFA_USB-atmega32u4.dir/build.make CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Class/Common/HIDParser.c.o.provides.build
-.PHONY : CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Class/Common/HIDParser.c.o.provides
+CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Class/Common/HIDParser.c.obj.provides: CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Class/Common/HIDParser.c.obj.requires
+	$(MAKE) -f CMakeFiles/LUFA_USB-atmega32u4.dir/build.make CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Class/Common/HIDParser.c.obj.provides.build
+.PHONY : CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Class/Common/HIDParser.c.obj.provides
 
-CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Class/Common/HIDParser.c.o.provides.build: CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Class/Common/HIDParser.c.o
+CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Class/Common/HIDParser.c.obj.provides.build: CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Class/Common/HIDParser.c.obj
 
 
-CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Host_AVR8.c.o: CMakeFiles/LUFA_USB-atmega32u4.dir/flags.make
-CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Host_AVR8.c.o: lufa/LUFA/Drivers/USB/Core/AVR8/Host_AVR8.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mule/Documents/Calculator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Host_AVR8.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Host_AVR8.c.o   -c /home/mule/Documents/Calculator/lufa/LUFA/Drivers/USB/Core/AVR8/Host_AVR8.c
+CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Host_AVR8.c.obj: CMakeFiles/LUFA_USB-atmega32u4.dir/flags.make
+CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Host_AVR8.c.obj: lufa/LUFA/Drivers/USB/Core/AVR8/Host_AVR8.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mule/Documents/Calculator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Host_AVR8.c.obj"
+	/usr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Host_AVR8.c.obj   -c /home/mule/Documents/Calculator/lufa/LUFA/Drivers/USB/Core/AVR8/Host_AVR8.c
 
 CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Host_AVR8.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Host_AVR8.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mule/Documents/Calculator/lufa/LUFA/Drivers/USB/Core/AVR8/Host_AVR8.c > CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Host_AVR8.c.i
+	/usr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mule/Documents/Calculator/lufa/LUFA/Drivers/USB/Core/AVR8/Host_AVR8.c > CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Host_AVR8.c.i
 
 CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Host_AVR8.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Host_AVR8.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mule/Documents/Calculator/lufa/LUFA/Drivers/USB/Core/AVR8/Host_AVR8.c -o CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Host_AVR8.c.s
+	/usr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mule/Documents/Calculator/lufa/LUFA/Drivers/USB/Core/AVR8/Host_AVR8.c -o CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Host_AVR8.c.s
 
-CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Host_AVR8.c.o.requires:
+CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Host_AVR8.c.obj.requires:
 
-.PHONY : CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Host_AVR8.c.o.requires
+.PHONY : CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Host_AVR8.c.obj.requires
 
-CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Host_AVR8.c.o.provides: CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Host_AVR8.c.o.requires
-	$(MAKE) -f CMakeFiles/LUFA_USB-atmega32u4.dir/build.make CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Host_AVR8.c.o.provides.build
-.PHONY : CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Host_AVR8.c.o.provides
+CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Host_AVR8.c.obj.provides: CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Host_AVR8.c.obj.requires
+	$(MAKE) -f CMakeFiles/LUFA_USB-atmega32u4.dir/build.make CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Host_AVR8.c.obj.provides.build
+.PHONY : CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Host_AVR8.c.obj.provides
 
-CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Host_AVR8.c.o.provides.build: CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Host_AVR8.c.o
+CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Host_AVR8.c.obj.provides.build: CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Host_AVR8.c.obj
 
 
-CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Pipe_AVR8.c.o: CMakeFiles/LUFA_USB-atmega32u4.dir/flags.make
-CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Pipe_AVR8.c.o: lufa/LUFA/Drivers/USB/Core/AVR8/Pipe_AVR8.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mule/Documents/Calculator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Pipe_AVR8.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Pipe_AVR8.c.o   -c /home/mule/Documents/Calculator/lufa/LUFA/Drivers/USB/Core/AVR8/Pipe_AVR8.c
+CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Pipe_AVR8.c.obj: CMakeFiles/LUFA_USB-atmega32u4.dir/flags.make
+CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Pipe_AVR8.c.obj: lufa/LUFA/Drivers/USB/Core/AVR8/Pipe_AVR8.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mule/Documents/Calculator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Pipe_AVR8.c.obj"
+	/usr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Pipe_AVR8.c.obj   -c /home/mule/Documents/Calculator/lufa/LUFA/Drivers/USB/Core/AVR8/Pipe_AVR8.c
 
 CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Pipe_AVR8.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Pipe_AVR8.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mule/Documents/Calculator/lufa/LUFA/Drivers/USB/Core/AVR8/Pipe_AVR8.c > CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Pipe_AVR8.c.i
+	/usr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mule/Documents/Calculator/lufa/LUFA/Drivers/USB/Core/AVR8/Pipe_AVR8.c > CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Pipe_AVR8.c.i
 
 CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Pipe_AVR8.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Pipe_AVR8.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mule/Documents/Calculator/lufa/LUFA/Drivers/USB/Core/AVR8/Pipe_AVR8.c -o CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Pipe_AVR8.c.s
+	/usr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mule/Documents/Calculator/lufa/LUFA/Drivers/USB/Core/AVR8/Pipe_AVR8.c -o CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Pipe_AVR8.c.s
 
-CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Pipe_AVR8.c.o.requires:
+CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Pipe_AVR8.c.obj.requires:
 
-.PHONY : CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Pipe_AVR8.c.o.requires
+.PHONY : CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Pipe_AVR8.c.obj.requires
 
-CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Pipe_AVR8.c.o.provides: CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Pipe_AVR8.c.o.requires
-	$(MAKE) -f CMakeFiles/LUFA_USB-atmega32u4.dir/build.make CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Pipe_AVR8.c.o.provides.build
-.PHONY : CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Pipe_AVR8.c.o.provides
+CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Pipe_AVR8.c.obj.provides: CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Pipe_AVR8.c.obj.requires
+	$(MAKE) -f CMakeFiles/LUFA_USB-atmega32u4.dir/build.make CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Pipe_AVR8.c.obj.provides.build
+.PHONY : CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Pipe_AVR8.c.obj.provides
 
-CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Pipe_AVR8.c.o.provides.build: CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Pipe_AVR8.c.o
+CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Pipe_AVR8.c.obj.provides.build: CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Pipe_AVR8.c.obj
 
 
-CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/PipeStream_AVR8.c.o: CMakeFiles/LUFA_USB-atmega32u4.dir/flags.make
-CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/PipeStream_AVR8.c.o: lufa/LUFA/Drivers/USB/Core/AVR8/PipeStream_AVR8.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mule/Documents/Calculator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/PipeStream_AVR8.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/PipeStream_AVR8.c.o   -c /home/mule/Documents/Calculator/lufa/LUFA/Drivers/USB/Core/AVR8/PipeStream_AVR8.c
+CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/PipeStream_AVR8.c.obj: CMakeFiles/LUFA_USB-atmega32u4.dir/flags.make
+CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/PipeStream_AVR8.c.obj: lufa/LUFA/Drivers/USB/Core/AVR8/PipeStream_AVR8.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mule/Documents/Calculator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/PipeStream_AVR8.c.obj"
+	/usr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/PipeStream_AVR8.c.obj   -c /home/mule/Documents/Calculator/lufa/LUFA/Drivers/USB/Core/AVR8/PipeStream_AVR8.c
 
 CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/PipeStream_AVR8.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/PipeStream_AVR8.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mule/Documents/Calculator/lufa/LUFA/Drivers/USB/Core/AVR8/PipeStream_AVR8.c > CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/PipeStream_AVR8.c.i
+	/usr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mule/Documents/Calculator/lufa/LUFA/Drivers/USB/Core/AVR8/PipeStream_AVR8.c > CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/PipeStream_AVR8.c.i
 
 CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/PipeStream_AVR8.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/PipeStream_AVR8.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mule/Documents/Calculator/lufa/LUFA/Drivers/USB/Core/AVR8/PipeStream_AVR8.c -o CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/PipeStream_AVR8.c.s
+	/usr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mule/Documents/Calculator/lufa/LUFA/Drivers/USB/Core/AVR8/PipeStream_AVR8.c -o CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/PipeStream_AVR8.c.s
 
-CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/PipeStream_AVR8.c.o.requires:
+CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/PipeStream_AVR8.c.obj.requires:
 
-.PHONY : CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/PipeStream_AVR8.c.o.requires
+.PHONY : CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/PipeStream_AVR8.c.obj.requires
 
-CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/PipeStream_AVR8.c.o.provides: CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/PipeStream_AVR8.c.o.requires
-	$(MAKE) -f CMakeFiles/LUFA_USB-atmega32u4.dir/build.make CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/PipeStream_AVR8.c.o.provides.build
-.PHONY : CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/PipeStream_AVR8.c.o.provides
+CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/PipeStream_AVR8.c.obj.provides: CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/PipeStream_AVR8.c.obj.requires
+	$(MAKE) -f CMakeFiles/LUFA_USB-atmega32u4.dir/build.make CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/PipeStream_AVR8.c.obj.provides.build
+.PHONY : CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/PipeStream_AVR8.c.obj.provides
 
-CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/PipeStream_AVR8.c.o.provides.build: CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/PipeStream_AVR8.c.o
+CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/PipeStream_AVR8.c.obj.provides.build: CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/PipeStream_AVR8.c.obj
 
 
-CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/HostStandardReq.c.o: CMakeFiles/LUFA_USB-atmega32u4.dir/flags.make
-CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/HostStandardReq.c.o: lufa/LUFA/Drivers/USB/Core/HostStandardReq.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mule/Documents/Calculator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/HostStandardReq.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/HostStandardReq.c.o   -c /home/mule/Documents/Calculator/lufa/LUFA/Drivers/USB/Core/HostStandardReq.c
+CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/HostStandardReq.c.obj: CMakeFiles/LUFA_USB-atmega32u4.dir/flags.make
+CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/HostStandardReq.c.obj: lufa/LUFA/Drivers/USB/Core/HostStandardReq.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mule/Documents/Calculator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/HostStandardReq.c.obj"
+	/usr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/HostStandardReq.c.obj   -c /home/mule/Documents/Calculator/lufa/LUFA/Drivers/USB/Core/HostStandardReq.c
 
 CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/HostStandardReq.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/HostStandardReq.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mule/Documents/Calculator/lufa/LUFA/Drivers/USB/Core/HostStandardReq.c > CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/HostStandardReq.c.i
+	/usr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mule/Documents/Calculator/lufa/LUFA/Drivers/USB/Core/HostStandardReq.c > CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/HostStandardReq.c.i
 
 CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/HostStandardReq.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/HostStandardReq.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mule/Documents/Calculator/lufa/LUFA/Drivers/USB/Core/HostStandardReq.c -o CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/HostStandardReq.c.s
+	/usr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mule/Documents/Calculator/lufa/LUFA/Drivers/USB/Core/HostStandardReq.c -o CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/HostStandardReq.c.s
 
-CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/HostStandardReq.c.o.requires:
+CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/HostStandardReq.c.obj.requires:
 
-.PHONY : CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/HostStandardReq.c.o.requires
+.PHONY : CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/HostStandardReq.c.obj.requires
 
-CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/HostStandardReq.c.o.provides: CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/HostStandardReq.c.o.requires
-	$(MAKE) -f CMakeFiles/LUFA_USB-atmega32u4.dir/build.make CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/HostStandardReq.c.o.provides.build
-.PHONY : CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/HostStandardReq.c.o.provides
+CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/HostStandardReq.c.obj.provides: CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/HostStandardReq.c.obj.requires
+	$(MAKE) -f CMakeFiles/LUFA_USB-atmega32u4.dir/build.make CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/HostStandardReq.c.obj.provides.build
+.PHONY : CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/HostStandardReq.c.obj.provides
 
-CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/HostStandardReq.c.o.provides.build: CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/HostStandardReq.c.o
+CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/HostStandardReq.c.obj.provides.build: CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/HostStandardReq.c.obj
 
 
-CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.c.o: CMakeFiles/LUFA_USB-atmega32u4.dir/flags.make
-CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.c.o: lufa/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mule/Documents/Calculator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.c.o   -c /home/mule/Documents/Calculator/lufa/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.c
+CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.c.obj: CMakeFiles/LUFA_USB-atmega32u4.dir/flags.make
+CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.c.obj: lufa/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mule/Documents/Calculator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.c.obj"
+	/usr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.c.obj   -c /home/mule/Documents/Calculator/lufa/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.c
 
 CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mule/Documents/Calculator/lufa/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.c > CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.c.i
+	/usr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mule/Documents/Calculator/lufa/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.c > CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.c.i
 
 CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mule/Documents/Calculator/lufa/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.c -o CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.c.s
+	/usr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mule/Documents/Calculator/lufa/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.c -o CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.c.s
 
-CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.c.o.requires:
+CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.c.obj.requires:
 
-.PHONY : CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.c.o.requires
+.PHONY : CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.c.obj.requires
 
-CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.c.o.provides: CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.c.o.requires
-	$(MAKE) -f CMakeFiles/LUFA_USB-atmega32u4.dir/build.make CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.c.o.provides.build
-.PHONY : CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.c.o.provides
+CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.c.obj.provides: CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.c.obj.requires
+	$(MAKE) -f CMakeFiles/LUFA_USB-atmega32u4.dir/build.make CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.c.obj.provides.build
+.PHONY : CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.c.obj.provides
 
-CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.c.o.provides.build: CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.c.o
+CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.c.obj.provides.build: CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.c.obj
 
 
-CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.c.o: CMakeFiles/LUFA_USB-atmega32u4.dir/flags.make
-CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.c.o: lufa/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mule/Documents/Calculator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.c.o   -c /home/mule/Documents/Calculator/lufa/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.c
+CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.c.obj: CMakeFiles/LUFA_USB-atmega32u4.dir/flags.make
+CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.c.obj: lufa/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mule/Documents/Calculator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.c.obj"
+	/usr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.c.obj   -c /home/mule/Documents/Calculator/lufa/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.c
 
 CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mule/Documents/Calculator/lufa/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.c > CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.c.i
+	/usr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mule/Documents/Calculator/lufa/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.c > CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.c.i
 
 CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mule/Documents/Calculator/lufa/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.c -o CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.c.s
+	/usr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mule/Documents/Calculator/lufa/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.c -o CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.c.s
 
-CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.c.o.requires:
+CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.c.obj.requires:
 
-.PHONY : CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.c.o.requires
+.PHONY : CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.c.obj.requires
 
-CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.c.o.provides: CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.c.o.requires
-	$(MAKE) -f CMakeFiles/LUFA_USB-atmega32u4.dir/build.make CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.c.o.provides.build
-.PHONY : CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.c.o.provides
+CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.c.obj.provides: CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.c.obj.requires
+	$(MAKE) -f CMakeFiles/LUFA_USB-atmega32u4.dir/build.make CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.c.obj.provides.build
+.PHONY : CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.c.obj.provides
 
-CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.c.o.provides.build: CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.c.o
+CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.c.obj.provides.build: CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.c.obj
 
 
-CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.c.o: CMakeFiles/LUFA_USB-atmega32u4.dir/flags.make
-CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.c.o: lufa/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mule/Documents/Calculator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.c.o   -c /home/mule/Documents/Calculator/lufa/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.c
+CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.c.obj: CMakeFiles/LUFA_USB-atmega32u4.dir/flags.make
+CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.c.obj: lufa/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mule/Documents/Calculator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.c.obj"
+	/usr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.c.obj   -c /home/mule/Documents/Calculator/lufa/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.c
 
 CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mule/Documents/Calculator/lufa/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.c > CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.c.i
+	/usr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mule/Documents/Calculator/lufa/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.c > CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.c.i
 
 CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mule/Documents/Calculator/lufa/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.c -o CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.c.s
+	/usr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mule/Documents/Calculator/lufa/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.c -o CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.c.s
 
-CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.c.o.requires:
+CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.c.obj.requires:
 
-.PHONY : CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.c.o.requires
+.PHONY : CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.c.obj.requires
 
-CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.c.o.provides: CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.c.o.requires
-	$(MAKE) -f CMakeFiles/LUFA_USB-atmega32u4.dir/build.make CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.c.o.provides.build
-.PHONY : CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.c.o.provides
+CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.c.obj.provides: CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.c.obj.requires
+	$(MAKE) -f CMakeFiles/LUFA_USB-atmega32u4.dir/build.make CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.c.obj.provides.build
+.PHONY : CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.c.obj.provides
 
-CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.c.o.provides.build: CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.c.o
+CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.c.obj.provides.build: CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.c.obj
 
 
-CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/DeviceStandardReq.c.o: CMakeFiles/LUFA_USB-atmega32u4.dir/flags.make
-CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/DeviceStandardReq.c.o: lufa/LUFA/Drivers/USB/Core/DeviceStandardReq.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mule/Documents/Calculator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/DeviceStandardReq.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/DeviceStandardReq.c.o   -c /home/mule/Documents/Calculator/lufa/LUFA/Drivers/USB/Core/DeviceStandardReq.c
+CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/DeviceStandardReq.c.obj: CMakeFiles/LUFA_USB-atmega32u4.dir/flags.make
+CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/DeviceStandardReq.c.obj: lufa/LUFA/Drivers/USB/Core/DeviceStandardReq.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mule/Documents/Calculator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/DeviceStandardReq.c.obj"
+	/usr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/DeviceStandardReq.c.obj   -c /home/mule/Documents/Calculator/lufa/LUFA/Drivers/USB/Core/DeviceStandardReq.c
 
 CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/DeviceStandardReq.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/DeviceStandardReq.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mule/Documents/Calculator/lufa/LUFA/Drivers/USB/Core/DeviceStandardReq.c > CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/DeviceStandardReq.c.i
+	/usr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mule/Documents/Calculator/lufa/LUFA/Drivers/USB/Core/DeviceStandardReq.c > CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/DeviceStandardReq.c.i
 
 CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/DeviceStandardReq.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/DeviceStandardReq.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mule/Documents/Calculator/lufa/LUFA/Drivers/USB/Core/DeviceStandardReq.c -o CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/DeviceStandardReq.c.s
+	/usr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mule/Documents/Calculator/lufa/LUFA/Drivers/USB/Core/DeviceStandardReq.c -o CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/DeviceStandardReq.c.s
 
-CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/DeviceStandardReq.c.o.requires:
+CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/DeviceStandardReq.c.obj.requires:
 
-.PHONY : CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/DeviceStandardReq.c.o.requires
+.PHONY : CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/DeviceStandardReq.c.obj.requires
 
-CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/DeviceStandardReq.c.o.provides: CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/DeviceStandardReq.c.o.requires
-	$(MAKE) -f CMakeFiles/LUFA_USB-atmega32u4.dir/build.make CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/DeviceStandardReq.c.o.provides.build
-.PHONY : CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/DeviceStandardReq.c.o.provides
+CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/DeviceStandardReq.c.obj.provides: CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/DeviceStandardReq.c.obj.requires
+	$(MAKE) -f CMakeFiles/LUFA_USB-atmega32u4.dir/build.make CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/DeviceStandardReq.c.obj.provides.build
+.PHONY : CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/DeviceStandardReq.c.obj.provides
 
-CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/DeviceStandardReq.c.o.provides.build: CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/DeviceStandardReq.c.o
+CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/DeviceStandardReq.c.obj.provides.build: CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/DeviceStandardReq.c.obj
 
 
 # Object files for target LUFA_USB-atmega32u4
 LUFA_USB__atmega32u4_OBJECTS = \
-"CMakeFiles/LUFA_USB-atmega32u4.dir/c_lib/USB_Config/Descriptors.c.o" \
-"CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.c.o" \
-"CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.c.o" \
-"CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/ConfigDescriptors.c.o" \
-"CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/Events.c.o" \
-"CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/USBTask.c.o" \
-"CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Class/Common/HIDParser.c.o" \
-"CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Host_AVR8.c.o" \
-"CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Pipe_AVR8.c.o" \
-"CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/PipeStream_AVR8.c.o" \
-"CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/HostStandardReq.c.o" \
-"CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.c.o" \
-"CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.c.o" \
-"CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.c.o" \
-"CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/DeviceStandardReq.c.o"
+"CMakeFiles/LUFA_USB-atmega32u4.dir/c_lib/USB_Config/Descriptors.c.obj" \
+"CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.c.obj" \
+"CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.c.obj" \
+"CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/ConfigDescriptors.c.obj" \
+"CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/Events.c.obj" \
+"CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/USBTask.c.obj" \
+"CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Class/Common/HIDParser.c.obj" \
+"CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Host_AVR8.c.obj" \
+"CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Pipe_AVR8.c.obj" \
+"CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/PipeStream_AVR8.c.obj" \
+"CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/HostStandardReq.c.obj" \
+"CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.c.obj" \
+"CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.c.obj" \
+"CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.c.obj" \
+"CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/DeviceStandardReq.c.obj"
 
 # External object files for target LUFA_USB-atmega32u4
 LUFA_USB__atmega32u4_EXTERNAL_OBJECTS =
 
-libLUFA_USB-atmega32u4.a: CMakeFiles/LUFA_USB-atmega32u4.dir/c_lib/USB_Config/Descriptors.c.o
-libLUFA_USB-atmega32u4.a: CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.c.o
-libLUFA_USB-atmega32u4.a: CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.c.o
-libLUFA_USB-atmega32u4.a: CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/ConfigDescriptors.c.o
-libLUFA_USB-atmega32u4.a: CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/Events.c.o
-libLUFA_USB-atmega32u4.a: CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/USBTask.c.o
-libLUFA_USB-atmega32u4.a: CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Class/Common/HIDParser.c.o
-libLUFA_USB-atmega32u4.a: CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Host_AVR8.c.o
-libLUFA_USB-atmega32u4.a: CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Pipe_AVR8.c.o
-libLUFA_USB-atmega32u4.a: CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/PipeStream_AVR8.c.o
-libLUFA_USB-atmega32u4.a: CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/HostStandardReq.c.o
-libLUFA_USB-atmega32u4.a: CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.c.o
-libLUFA_USB-atmega32u4.a: CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.c.o
-libLUFA_USB-atmega32u4.a: CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.c.o
-libLUFA_USB-atmega32u4.a: CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/DeviceStandardReq.c.o
+libLUFA_USB-atmega32u4.a: CMakeFiles/LUFA_USB-atmega32u4.dir/c_lib/USB_Config/Descriptors.c.obj
+libLUFA_USB-atmega32u4.a: CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.c.obj
+libLUFA_USB-atmega32u4.a: CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.c.obj
+libLUFA_USB-atmega32u4.a: CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/ConfigDescriptors.c.obj
+libLUFA_USB-atmega32u4.a: CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/Events.c.obj
+libLUFA_USB-atmega32u4.a: CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/USBTask.c.obj
+libLUFA_USB-atmega32u4.a: CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Class/Common/HIDParser.c.obj
+libLUFA_USB-atmega32u4.a: CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Host_AVR8.c.obj
+libLUFA_USB-atmega32u4.a: CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Pipe_AVR8.c.obj
+libLUFA_USB-atmega32u4.a: CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/PipeStream_AVR8.c.obj
+libLUFA_USB-atmega32u4.a: CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/HostStandardReq.c.obj
+libLUFA_USB-atmega32u4.a: CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.c.obj
+libLUFA_USB-atmega32u4.a: CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.c.obj
+libLUFA_USB-atmega32u4.a: CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.c.obj
+libLUFA_USB-atmega32u4.a: CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/DeviceStandardReq.c.obj
 libLUFA_USB-atmega32u4.a: CMakeFiles/LUFA_USB-atmega32u4.dir/build.make
 libLUFA_USB-atmega32u4.a: CMakeFiles/LUFA_USB-atmega32u4.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mule/Documents/Calculator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking C static library libLUFA_USB-atmega32u4.a"
@@ -464,21 +464,21 @@ CMakeFiles/LUFA_USB-atmega32u4.dir/build: libLUFA_USB-atmega32u4.a
 
 .PHONY : CMakeFiles/LUFA_USB-atmega32u4.dir/build
 
-CMakeFiles/LUFA_USB-atmega32u4.dir/requires: CMakeFiles/LUFA_USB-atmega32u4.dir/c_lib/USB_Config/Descriptors.c.o.requires
-CMakeFiles/LUFA_USB-atmega32u4.dir/requires: CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.c.o.requires
-CMakeFiles/LUFA_USB-atmega32u4.dir/requires: CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.c.o.requires
-CMakeFiles/LUFA_USB-atmega32u4.dir/requires: CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/ConfigDescriptors.c.o.requires
-CMakeFiles/LUFA_USB-atmega32u4.dir/requires: CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/Events.c.o.requires
-CMakeFiles/LUFA_USB-atmega32u4.dir/requires: CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/USBTask.c.o.requires
-CMakeFiles/LUFA_USB-atmega32u4.dir/requires: CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Class/Common/HIDParser.c.o.requires
-CMakeFiles/LUFA_USB-atmega32u4.dir/requires: CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Host_AVR8.c.o.requires
-CMakeFiles/LUFA_USB-atmega32u4.dir/requires: CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Pipe_AVR8.c.o.requires
-CMakeFiles/LUFA_USB-atmega32u4.dir/requires: CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/PipeStream_AVR8.c.o.requires
-CMakeFiles/LUFA_USB-atmega32u4.dir/requires: CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/HostStandardReq.c.o.requires
-CMakeFiles/LUFA_USB-atmega32u4.dir/requires: CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.c.o.requires
-CMakeFiles/LUFA_USB-atmega32u4.dir/requires: CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.c.o.requires
-CMakeFiles/LUFA_USB-atmega32u4.dir/requires: CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.c.o.requires
-CMakeFiles/LUFA_USB-atmega32u4.dir/requires: CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/DeviceStandardReq.c.o.requires
+CMakeFiles/LUFA_USB-atmega32u4.dir/requires: CMakeFiles/LUFA_USB-atmega32u4.dir/c_lib/USB_Config/Descriptors.c.obj.requires
+CMakeFiles/LUFA_USB-atmega32u4.dir/requires: CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.c.obj.requires
+CMakeFiles/LUFA_USB-atmega32u4.dir/requires: CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.c.obj.requires
+CMakeFiles/LUFA_USB-atmega32u4.dir/requires: CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/ConfigDescriptors.c.obj.requires
+CMakeFiles/LUFA_USB-atmega32u4.dir/requires: CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/Events.c.obj.requires
+CMakeFiles/LUFA_USB-atmega32u4.dir/requires: CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/USBTask.c.obj.requires
+CMakeFiles/LUFA_USB-atmega32u4.dir/requires: CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Class/Common/HIDParser.c.obj.requires
+CMakeFiles/LUFA_USB-atmega32u4.dir/requires: CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Host_AVR8.c.obj.requires
+CMakeFiles/LUFA_USB-atmega32u4.dir/requires: CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Pipe_AVR8.c.obj.requires
+CMakeFiles/LUFA_USB-atmega32u4.dir/requires: CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/PipeStream_AVR8.c.obj.requires
+CMakeFiles/LUFA_USB-atmega32u4.dir/requires: CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/HostStandardReq.c.obj.requires
+CMakeFiles/LUFA_USB-atmega32u4.dir/requires: CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.c.obj.requires
+CMakeFiles/LUFA_USB-atmega32u4.dir/requires: CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.c.obj.requires
+CMakeFiles/LUFA_USB-atmega32u4.dir/requires: CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.c.obj.requires
+CMakeFiles/LUFA_USB-atmega32u4.dir/requires: CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/DeviceStandardReq.c.obj.requires
 
 .PHONY : CMakeFiles/LUFA_USB-atmega32u4.dir/requires
 

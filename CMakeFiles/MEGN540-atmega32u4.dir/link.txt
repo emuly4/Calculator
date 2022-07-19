@@ -1,0 +1,2 @@
+/usr/bin/avr-ar qc libMEGN540-atmega32u4.a  CMakeFiles/MEGN540-atmega32u4.dir/c_lib/Ring_Buffer.cpp.obj CMakeFiles/MEGN540-atmega32u4.dir/c_lib/Task_Management.cpp.obj CMakeFiles/MEGN540-atmega32u4.dir/c_lib/Timing.cpp.obj
+/usr/bin/avr-ranlib libMEGN540-atmega32u4.a

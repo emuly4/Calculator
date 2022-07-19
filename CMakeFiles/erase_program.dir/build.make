@@ -55,7 +55,7 @@ include CMakeFiles/erase_program.dir/progress.make
 
 CMakeFiles/erase_program:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mule/Documents/Calculator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Erasing Program on atmega32u4 using avr109"
-	avrdude -p atmega32u4 -c avr109 -P /dev/ttyCalculatorAVR -u -e
+	avrdude -p atmega32u4 -c avr109 -P /dev/ttyCalc -u -e
 
 erase_program: CMakeFiles/erase_program
 erase_program: CMakeFiles/erase_program.dir/build.make

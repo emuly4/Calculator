@@ -4,21 +4,21 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/mule/Documents/Calculator/c_lib/USB_Config/Descriptors.c" "/home/mule/Documents/Calculator/CMakeFiles/LUFA_USB-atmega32u4.dir/c_lib/USB_Config/Descriptors.c.o"
-  "/home/mule/Documents/Calculator/lufa/LUFA/Drivers/USB/Class/Common/HIDParser.c" "/home/mule/Documents/Calculator/CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Class/Common/HIDParser.c.o"
-  "/home/mule/Documents/Calculator/lufa/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.c" "/home/mule/Documents/Calculator/CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.c.o"
-  "/home/mule/Documents/Calculator/lufa/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.c" "/home/mule/Documents/Calculator/CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.c.o"
-  "/home/mule/Documents/Calculator/lufa/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.c" "/home/mule/Documents/Calculator/CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.c.o"
-  "/home/mule/Documents/Calculator/lufa/LUFA/Drivers/USB/Core/AVR8/Host_AVR8.c" "/home/mule/Documents/Calculator/CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Host_AVR8.c.o"
-  "/home/mule/Documents/Calculator/lufa/LUFA/Drivers/USB/Core/AVR8/PipeStream_AVR8.c" "/home/mule/Documents/Calculator/CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/PipeStream_AVR8.c.o"
-  "/home/mule/Documents/Calculator/lufa/LUFA/Drivers/USB/Core/AVR8/Pipe_AVR8.c" "/home/mule/Documents/Calculator/CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Pipe_AVR8.c.o"
-  "/home/mule/Documents/Calculator/lufa/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.c" "/home/mule/Documents/Calculator/CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.c.o"
-  "/home/mule/Documents/Calculator/lufa/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.c" "/home/mule/Documents/Calculator/CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.c.o"
-  "/home/mule/Documents/Calculator/lufa/LUFA/Drivers/USB/Core/ConfigDescriptors.c" "/home/mule/Documents/Calculator/CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/ConfigDescriptors.c.o"
-  "/home/mule/Documents/Calculator/lufa/LUFA/Drivers/USB/Core/DeviceStandardReq.c" "/home/mule/Documents/Calculator/CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/DeviceStandardReq.c.o"
-  "/home/mule/Documents/Calculator/lufa/LUFA/Drivers/USB/Core/Events.c" "/home/mule/Documents/Calculator/CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/Events.c.o"
-  "/home/mule/Documents/Calculator/lufa/LUFA/Drivers/USB/Core/HostStandardReq.c" "/home/mule/Documents/Calculator/CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/HostStandardReq.c.o"
-  "/home/mule/Documents/Calculator/lufa/LUFA/Drivers/USB/Core/USBTask.c" "/home/mule/Documents/Calculator/CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/USBTask.c.o"
+  "/home/mule/Documents/Calculator/c_lib/USB_Config/Descriptors.c" "/home/mule/Documents/Calculator/CMakeFiles/LUFA_USB-atmega32u4.dir/c_lib/USB_Config/Descriptors.c.obj"
+  "/home/mule/Documents/Calculator/lufa/LUFA/Drivers/USB/Class/Common/HIDParser.c" "/home/mule/Documents/Calculator/CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Class/Common/HIDParser.c.obj"
+  "/home/mule/Documents/Calculator/lufa/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.c" "/home/mule/Documents/Calculator/CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.c.obj"
+  "/home/mule/Documents/Calculator/lufa/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.c" "/home/mule/Documents/Calculator/CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.c.obj"
+  "/home/mule/Documents/Calculator/lufa/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.c" "/home/mule/Documents/Calculator/CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.c.obj"
+  "/home/mule/Documents/Calculator/lufa/LUFA/Drivers/USB/Core/AVR8/Host_AVR8.c" "/home/mule/Documents/Calculator/CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Host_AVR8.c.obj"
+  "/home/mule/Documents/Calculator/lufa/LUFA/Drivers/USB/Core/AVR8/PipeStream_AVR8.c" "/home/mule/Documents/Calculator/CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/PipeStream_AVR8.c.obj"
+  "/home/mule/Documents/Calculator/lufa/LUFA/Drivers/USB/Core/AVR8/Pipe_AVR8.c" "/home/mule/Documents/Calculator/CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Pipe_AVR8.c.obj"
+  "/home/mule/Documents/Calculator/lufa/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.c" "/home/mule/Documents/Calculator/CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.c.obj"
+  "/home/mule/Documents/Calculator/lufa/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.c" "/home/mule/Documents/Calculator/CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.c.obj"
+  "/home/mule/Documents/Calculator/lufa/LUFA/Drivers/USB/Core/ConfigDescriptors.c" "/home/mule/Documents/Calculator/CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/ConfigDescriptors.c.obj"
+  "/home/mule/Documents/Calculator/lufa/LUFA/Drivers/USB/Core/DeviceStandardReq.c" "/home/mule/Documents/Calculator/CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/DeviceStandardReq.c.obj"
+  "/home/mule/Documents/Calculator/lufa/LUFA/Drivers/USB/Core/Events.c" "/home/mule/Documents/Calculator/CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/Events.c.obj"
+  "/home/mule/Documents/Calculator/lufa/LUFA/Drivers/USB/Core/HostStandardReq.c" "/home/mule/Documents/Calculator/CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/HostStandardReq.c.obj"
+  "/home/mule/Documents/Calculator/lufa/LUFA/Drivers/USB/Core/USBTask.c" "/home/mule/Documents/Calculator/CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/USBTask.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
@@ -26,8 +26,8 @@ set(CMAKE_C_COMPILER_ID "GNU")
 set(CMAKE_TARGET_DEFINITIONS_C
   "ARCH=ARCH_AVR8"
   "BOARD=BOARD_USER"
-  "DEVICE_PID=0x2300"
-  "DEVICE_VID=0x1ffb"
+  "DEVICE_PID=0x800e"
+  "DEVICE_VID=0x239a"
   "FIXED_CONTROL_ENDPOINT_SIZE=8"
   "FIXED_NUM_CONFIGURATIONS=1"
   "F_CPU=16000000UL"
@@ -43,7 +43,6 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "lufa"
   "c_lib"
   "c_lib/USB_Config"
-  "/usr/include/eigen3"
   )
 
 # Targets to which this target links.

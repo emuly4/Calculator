@@ -111,17 +111,82 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Calculator
+# Target rules for targets named disassemble_Calc
 
 # Build rule for target.
-Calculator: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Calculator
-.PHONY : Calculator
+disassemble_Calc: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 disassemble_Calc
+.PHONY : disassemble_Calc
 
 # fast build rule for target.
-Calculator/fast:
-	$(MAKE) -f CMakeFiles/Calculator.dir/build.make CMakeFiles/Calculator.dir/build
-.PHONY : Calculator/fast
+disassemble_Calc/fast:
+	$(MAKE) -f CMakeFiles/disassemble_Calc.dir/build.make CMakeFiles/disassemble_Calc.dir/build
+.PHONY : disassemble_Calc/fast
+
+#=============================================================================
+# Target rules for targets named upload_Calc_eeprom
+
+# Build rule for target.
+upload_Calc_eeprom: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 upload_Calc_eeprom
+.PHONY : upload_Calc_eeprom
+
+# fast build rule for target.
+upload_Calc_eeprom/fast:
+	$(MAKE) -f CMakeFiles/upload_Calc_eeprom.dir/build.make CMakeFiles/upload_Calc_eeprom.dir/build
+.PHONY : upload_Calc_eeprom/fast
+
+#=============================================================================
+# Target rules for targets named upload_Calc
+
+# Build rule for target.
+upload_Calc: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 upload_Calc
+.PHONY : upload_Calc
+
+# fast build rule for target.
+upload_Calc/fast:
+	$(MAKE) -f CMakeFiles/upload_Calc.dir/build.make CMakeFiles/upload_Calc.dir/build
+.PHONY : upload_Calc/fast
+
+#=============================================================================
+# Target rules for targets named Calc
+
+# Build rule for target.
+Calc: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Calc
+.PHONY : Calc
+
+# fast build rule for target.
+Calc/fast:
+	$(MAKE) -f CMakeFiles/Calc.dir/build.make CMakeFiles/Calc.dir/build
+.PHONY : Calc/fast
+
+#=============================================================================
+# Target rules for targets named Calc-atmega32u4.elf
+
+# Build rule for target.
+Calc-atmega32u4.elf: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Calc-atmega32u4.elf
+.PHONY : Calc-atmega32u4.elf
+
+# fast build rule for target.
+Calc-atmega32u4.elf/fast:
+	$(MAKE) -f CMakeFiles/Calc-atmega32u4.elf.dir/build.make CMakeFiles/Calc-atmega32u4.elf.dir/build
+.PHONY : Calc-atmega32u4.elf/fast
+
+#=============================================================================
+# Target rules for targets named CALCULATOR-atmega32u4
+
+# Build rule for target.
+CALCULATOR-atmega32u4: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 CALCULATOR-atmega32u4
+.PHONY : CALCULATOR-atmega32u4
+
+# fast build rule for target.
+CALCULATOR-atmega32u4/fast:
+	$(MAKE) -f CMakeFiles/CALCULATOR-atmega32u4.dir/build.make CMakeFiles/CALCULATOR-atmega32u4.dir/build
+.PHONY : CALCULATOR-atmega32u4/fast
 
 #=============================================================================
 # Target rules for targets named LUFA_USB
@@ -150,17 +215,17 @@ LUFA_USB-atmega32u4/fast:
 .PHONY : LUFA_USB-atmega32u4/fast
 
 #=============================================================================
-# Target rules for targets named Calculator-atmega32u4
+# Target rules for targets named CALCULATOR
 
 # Build rule for target.
-Calculator-atmega32u4: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Calculator-atmega32u4
-.PHONY : Calculator-atmega32u4
+CALCULATOR: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 CALCULATOR
+.PHONY : CALCULATOR
 
 # fast build rule for target.
-Calculator-atmega32u4/fast:
-	$(MAKE) -f CMakeFiles/Calculator-atmega32u4.dir/build.make CMakeFiles/Calculator-atmega32u4.dir/build
-.PHONY : Calculator-atmega32u4/fast
+CALCULATOR/fast:
+	$(MAKE) -f CMakeFiles/CALCULATOR.dir/build.make CMakeFiles/CALCULATOR.dir/build
+.PHONY : CALCULATOR/fast
 
 #=============================================================================
 # Target rules for targets named erase_program
@@ -175,392 +240,68 @@ erase_program/fast:
 	$(MAKE) -f CMakeFiles/erase_program.dir/build.make CMakeFiles/erase_program.dir/build
 .PHONY : erase_program/fast
 
-c_lib/Battery_Monitor.o: c_lib/Battery_Monitor.cpp.o
+Calc.obj: Calc.cpp.obj
 
-.PHONY : c_lib/Battery_Monitor.o
+.PHONY : Calc.obj
 
 # target to build an object file
-c_lib/Battery_Monitor.cpp.o:
-	$(MAKE) -f CMakeFiles/Calculator-atmega32u4.dir/build.make CMakeFiles/Calculator-atmega32u4.dir/c_lib/Battery_Monitor.cpp.o
-.PHONY : c_lib/Battery_Monitor.cpp.o
+Calc.cpp.obj:
+	$(MAKE) -f CMakeFiles/Calc-atmega32u4.elf.dir/build.make CMakeFiles/Calc-atmega32u4.elf.dir/Calc.cpp.obj
+.PHONY : Calc.cpp.obj
 
-c_lib/Battery_Monitor.i: c_lib/Battery_Monitor.cpp.i
+Calc.i: Calc.cpp.i
 
-.PHONY : c_lib/Battery_Monitor.i
+.PHONY : Calc.i
 
 # target to preprocess a source file
-c_lib/Battery_Monitor.cpp.i:
-	$(MAKE) -f CMakeFiles/Calculator-atmega32u4.dir/build.make CMakeFiles/Calculator-atmega32u4.dir/c_lib/Battery_Monitor.cpp.i
-.PHONY : c_lib/Battery_Monitor.cpp.i
+Calc.cpp.i:
+	$(MAKE) -f CMakeFiles/Calc-atmega32u4.elf.dir/build.make CMakeFiles/Calc-atmega32u4.elf.dir/Calc.cpp.i
+.PHONY : Calc.cpp.i
 
-c_lib/Battery_Monitor.s: c_lib/Battery_Monitor.cpp.s
+Calc.s: Calc.cpp.s
 
-.PHONY : c_lib/Battery_Monitor.s
+.PHONY : Calc.s
 
 # target to generate assembly for a file
-c_lib/Battery_Monitor.cpp.s:
-	$(MAKE) -f CMakeFiles/Calculator-atmega32u4.dir/build.make CMakeFiles/Calculator-atmega32u4.dir/c_lib/Battery_Monitor.cpp.s
-.PHONY : c_lib/Battery_Monitor.cpp.s
+Calc.cpp.s:
+	$(MAKE) -f CMakeFiles/Calc-atmega32u4.elf.dir/build.make CMakeFiles/Calc-atmega32u4.elf.dir/Calc.cpp.s
+.PHONY : Calc.cpp.s
 
-c_lib/Controller.o: c_lib/Controller.cpp.o
+c_lib/LCD.obj: c_lib/LCD.cpp.obj
 
-.PHONY : c_lib/Controller.o
+.PHONY : c_lib/LCD.obj
 
 # target to build an object file
-c_lib/Controller.cpp.o:
-	$(MAKE) -f CMakeFiles/Calculator-atmega32u4.dir/build.make CMakeFiles/Calculator-atmega32u4.dir/c_lib/Controller.cpp.o
-.PHONY : c_lib/Controller.cpp.o
+c_lib/LCD.cpp.obj:
+	$(MAKE) -f CMakeFiles/CALCULATOR-atmega32u4.dir/build.make CMakeFiles/CALCULATOR-atmega32u4.dir/c_lib/LCD.cpp.obj
+.PHONY : c_lib/LCD.cpp.obj
 
-c_lib/Controller.i: c_lib/Controller.cpp.i
+c_lib/LCD.i: c_lib/LCD.cpp.i
 
-.PHONY : c_lib/Controller.i
+.PHONY : c_lib/LCD.i
 
 # target to preprocess a source file
-c_lib/Controller.cpp.i:
-	$(MAKE) -f CMakeFiles/Calculator-atmega32u4.dir/build.make CMakeFiles/Calculator-atmega32u4.dir/c_lib/Controller.cpp.i
-.PHONY : c_lib/Controller.cpp.i
+c_lib/LCD.cpp.i:
+	$(MAKE) -f CMakeFiles/CALCULATOR-atmega32u4.dir/build.make CMakeFiles/CALCULATOR-atmega32u4.dir/c_lib/LCD.cpp.i
+.PHONY : c_lib/LCD.cpp.i
 
-c_lib/Controller.s: c_lib/Controller.cpp.s
+c_lib/LCD.s: c_lib/LCD.cpp.s
 
-.PHONY : c_lib/Controller.s
-
-# target to generate assembly for a file
-c_lib/Controller.cpp.s:
-	$(MAKE) -f CMakeFiles/Calculator-atmega32u4.dir/build.make CMakeFiles/Calculator-atmega32u4.dir/c_lib/Controller.cpp.s
-.PHONY : c_lib/Controller.cpp.s
-
-c_lib/EEPROM.o: c_lib/EEPROM.cpp.o
-
-.PHONY : c_lib/EEPROM.o
-
-# target to build an object file
-c_lib/EEPROM.cpp.o:
-	$(MAKE) -f CMakeFiles/Calculator-atmega32u4.dir/build.make CMakeFiles/Calculator-atmega32u4.dir/c_lib/EEPROM.cpp.o
-.PHONY : c_lib/EEPROM.cpp.o
-
-c_lib/EEPROM.i: c_lib/EEPROM.cpp.i
-
-.PHONY : c_lib/EEPROM.i
-
-# target to preprocess a source file
-c_lib/EEPROM.cpp.i:
-	$(MAKE) -f CMakeFiles/Calculator-atmega32u4.dir/build.make CMakeFiles/Calculator-atmega32u4.dir/c_lib/EEPROM.cpp.i
-.PHONY : c_lib/EEPROM.cpp.i
-
-c_lib/EEPROM.s: c_lib/EEPROM.cpp.s
-
-.PHONY : c_lib/EEPROM.s
+.PHONY : c_lib/LCD.s
 
 # target to generate assembly for a file
-c_lib/EEPROM.cpp.s:
-	$(MAKE) -f CMakeFiles/Calculator-atmega32u4.dir/build.make CMakeFiles/Calculator-atmega32u4.dir/c_lib/EEPROM.cpp.s
-.PHONY : c_lib/EEPROM.cpp.s
+c_lib/LCD.cpp.s:
+	$(MAKE) -f CMakeFiles/CALCULATOR-atmega32u4.dir/build.make CMakeFiles/CALCULATOR-atmega32u4.dir/c_lib/LCD.cpp.s
+.PHONY : c_lib/LCD.cpp.s
 
-c_lib/Encoder.o: c_lib/Encoder.cpp.o
+c_lib/USB_Config/Descriptors.obj: c_lib/USB_Config/Descriptors.c.obj
 
-.PHONY : c_lib/Encoder.o
-
-# target to build an object file
-c_lib/Encoder.cpp.o:
-	$(MAKE) -f CMakeFiles/Calculator-atmega32u4.dir/build.make CMakeFiles/Calculator-atmega32u4.dir/c_lib/Encoder.cpp.o
-.PHONY : c_lib/Encoder.cpp.o
-
-c_lib/Encoder.i: c_lib/Encoder.cpp.i
-
-.PHONY : c_lib/Encoder.i
-
-# target to preprocess a source file
-c_lib/Encoder.cpp.i:
-	$(MAKE) -f CMakeFiles/Calculator-atmega32u4.dir/build.make CMakeFiles/Calculator-atmega32u4.dir/c_lib/Encoder.cpp.i
-.PHONY : c_lib/Encoder.cpp.i
-
-c_lib/Encoder.s: c_lib/Encoder.cpp.s
-
-.PHONY : c_lib/Encoder.s
-
-# target to generate assembly for a file
-c_lib/Encoder.cpp.s:
-	$(MAKE) -f CMakeFiles/Calculator-atmega32u4.dir/build.make CMakeFiles/Calculator-atmega32u4.dir/c_lib/Encoder.cpp.s
-.PHONY : c_lib/Encoder.cpp.s
-
-c_lib/Filter.o: c_lib/Filter.cpp.o
-
-.PHONY : c_lib/Filter.o
+.PHONY : c_lib/USB_Config/Descriptors.obj
 
 # target to build an object file
-c_lib/Filter.cpp.o:
-	$(MAKE) -f CMakeFiles/Calculator-atmega32u4.dir/build.make CMakeFiles/Calculator-atmega32u4.dir/c_lib/Filter.cpp.o
-.PHONY : c_lib/Filter.cpp.o
-
-c_lib/Filter.i: c_lib/Filter.cpp.i
-
-.PHONY : c_lib/Filter.i
-
-# target to preprocess a source file
-c_lib/Filter.cpp.i:
-	$(MAKE) -f CMakeFiles/Calculator-atmega32u4.dir/build.make CMakeFiles/Calculator-atmega32u4.dir/c_lib/Filter.cpp.i
-.PHONY : c_lib/Filter.cpp.i
-
-c_lib/Filter.s: c_lib/Filter.cpp.s
-
-.PHONY : c_lib/Filter.s
-
-# target to generate assembly for a file
-c_lib/Filter.cpp.s:
-	$(MAKE) -f CMakeFiles/Calculator-atmega32u4.dir/build.make CMakeFiles/Calculator-atmega32u4.dir/c_lib/Filter.cpp.s
-.PHONY : c_lib/Filter.cpp.s
-
-c_lib/I2C_MPU6050.o: c_lib/I2C_MPU6050.cpp.o
-
-.PHONY : c_lib/I2C_MPU6050.o
-
-# target to build an object file
-c_lib/I2C_MPU6050.cpp.o:
-	$(MAKE) -f CMakeFiles/Calculator-atmega32u4.dir/build.make CMakeFiles/Calculator-atmega32u4.dir/c_lib/I2C_MPU6050.cpp.o
-.PHONY : c_lib/I2C_MPU6050.cpp.o
-
-c_lib/I2C_MPU6050.i: c_lib/I2C_MPU6050.cpp.i
-
-.PHONY : c_lib/I2C_MPU6050.i
-
-# target to preprocess a source file
-c_lib/I2C_MPU6050.cpp.i:
-	$(MAKE) -f CMakeFiles/Calculator-atmega32u4.dir/build.make CMakeFiles/Calculator-atmega32u4.dir/c_lib/I2C_MPU6050.cpp.i
-.PHONY : c_lib/I2C_MPU6050.cpp.i
-
-c_lib/I2C_MPU6050.s: c_lib/I2C_MPU6050.cpp.s
-
-.PHONY : c_lib/I2C_MPU6050.s
-
-# target to generate assembly for a file
-c_lib/I2C_MPU6050.cpp.s:
-	$(MAKE) -f CMakeFiles/Calculator-atmega32u4.dir/build.make CMakeFiles/Calculator-atmega32u4.dir/c_lib/I2C_MPU6050.cpp.s
-.PHONY : c_lib/I2C_MPU6050.cpp.s
-
-c_lib/MEGN540_MessageHandeling.o: c_lib/MEGN540_MessageHandeling.cpp.o
-
-.PHONY : c_lib/MEGN540_MessageHandeling.o
-
-# target to build an object file
-c_lib/MEGN540_MessageHandeling.cpp.o:
-	$(MAKE) -f CMakeFiles/Calculator-atmega32u4.dir/build.make CMakeFiles/Calculator-atmega32u4.dir/c_lib/MEGN540_MessageHandeling.cpp.o
-.PHONY : c_lib/MEGN540_MessageHandeling.cpp.o
-
-c_lib/MEGN540_MessageHandeling.i: c_lib/MEGN540_MessageHandeling.cpp.i
-
-.PHONY : c_lib/MEGN540_MessageHandeling.i
-
-# target to preprocess a source file
-c_lib/MEGN540_MessageHandeling.cpp.i:
-	$(MAKE) -f CMakeFiles/Calculator-atmega32u4.dir/build.make CMakeFiles/Calculator-atmega32u4.dir/c_lib/MEGN540_MessageHandeling.cpp.i
-.PHONY : c_lib/MEGN540_MessageHandeling.cpp.i
-
-c_lib/MEGN540_MessageHandeling.s: c_lib/MEGN540_MessageHandeling.cpp.s
-
-.PHONY : c_lib/MEGN540_MessageHandeling.s
-
-# target to generate assembly for a file
-c_lib/MEGN540_MessageHandeling.cpp.s:
-	$(MAKE) -f CMakeFiles/Calculator-atmega32u4.dir/build.make CMakeFiles/Calculator-atmega32u4.dir/c_lib/MEGN540_MessageHandeling.cpp.s
-.PHONY : c_lib/MEGN540_MessageHandeling.cpp.s
-
-c_lib/MPU6050.o: c_lib/MPU6050.cpp.o
-
-.PHONY : c_lib/MPU6050.o
-
-# target to build an object file
-c_lib/MPU6050.cpp.o:
-	$(MAKE) -f CMakeFiles/Calculator-atmega32u4.dir/build.make CMakeFiles/Calculator-atmega32u4.dir/c_lib/MPU6050.cpp.o
-.PHONY : c_lib/MPU6050.cpp.o
-
-c_lib/MPU6050.i: c_lib/MPU6050.cpp.i
-
-.PHONY : c_lib/MPU6050.i
-
-# target to preprocess a source file
-c_lib/MPU6050.cpp.i:
-	$(MAKE) -f CMakeFiles/Calculator-atmega32u4.dir/build.make CMakeFiles/Calculator-atmega32u4.dir/c_lib/MPU6050.cpp.i
-.PHONY : c_lib/MPU6050.cpp.i
-
-c_lib/MPU6050.s: c_lib/MPU6050.cpp.s
-
-.PHONY : c_lib/MPU6050.s
-
-# target to generate assembly for a file
-c_lib/MPU6050.cpp.s:
-	$(MAKE) -f CMakeFiles/Calculator-atmega32u4.dir/build.make CMakeFiles/Calculator-atmega32u4.dir/c_lib/MPU6050.cpp.s
-.PHONY : c_lib/MPU6050.cpp.s
-
-c_lib/Matrix.o: c_lib/Matrix.cpp.o
-
-.PHONY : c_lib/Matrix.o
-
-# target to build an object file
-c_lib/Matrix.cpp.o:
-	$(MAKE) -f CMakeFiles/Calculator-atmega32u4.dir/build.make CMakeFiles/Calculator-atmega32u4.dir/c_lib/Matrix.cpp.o
-.PHONY : c_lib/Matrix.cpp.o
-
-c_lib/Matrix.i: c_lib/Matrix.cpp.i
-
-.PHONY : c_lib/Matrix.i
-
-# target to preprocess a source file
-c_lib/Matrix.cpp.i:
-	$(MAKE) -f CMakeFiles/Calculator-atmega32u4.dir/build.make CMakeFiles/Calculator-atmega32u4.dir/c_lib/Matrix.cpp.i
-.PHONY : c_lib/Matrix.cpp.i
-
-c_lib/Matrix.s: c_lib/Matrix.cpp.s
-
-.PHONY : c_lib/Matrix.s
-
-# target to generate assembly for a file
-c_lib/Matrix.cpp.s:
-	$(MAKE) -f CMakeFiles/Calculator-atmega32u4.dir/build.make CMakeFiles/Calculator-atmega32u4.dir/c_lib/Matrix.cpp.s
-.PHONY : c_lib/Matrix.cpp.s
-
-c_lib/MotorPWM.o: c_lib/MotorPWM.cpp.o
-
-.PHONY : c_lib/MotorPWM.o
-
-# target to build an object file
-c_lib/MotorPWM.cpp.o:
-	$(MAKE) -f CMakeFiles/Calculator-atmega32u4.dir/build.make CMakeFiles/Calculator-atmega32u4.dir/c_lib/MotorPWM.cpp.o
-.PHONY : c_lib/MotorPWM.cpp.o
-
-c_lib/MotorPWM.i: c_lib/MotorPWM.cpp.i
-
-.PHONY : c_lib/MotorPWM.i
-
-# target to preprocess a source file
-c_lib/MotorPWM.cpp.i:
-	$(MAKE) -f CMakeFiles/Calculator-atmega32u4.dir/build.make CMakeFiles/Calculator-atmega32u4.dir/c_lib/MotorPWM.cpp.i
-.PHONY : c_lib/MotorPWM.cpp.i
-
-c_lib/MotorPWM.s: c_lib/MotorPWM.cpp.s
-
-.PHONY : c_lib/MotorPWM.s
-
-# target to generate assembly for a file
-c_lib/MotorPWM.cpp.s:
-	$(MAKE) -f CMakeFiles/Calculator-atmega32u4.dir/build.make CMakeFiles/Calculator-atmega32u4.dir/c_lib/MotorPWM.cpp.s
-.PHONY : c_lib/MotorPWM.cpp.s
-
-c_lib/Ring_Buffer.o: c_lib/Ring_Buffer.cpp.o
-
-.PHONY : c_lib/Ring_Buffer.o
-
-# target to build an object file
-c_lib/Ring_Buffer.cpp.o:
-	$(MAKE) -f CMakeFiles/Calculator-atmega32u4.dir/build.make CMakeFiles/Calculator-atmega32u4.dir/c_lib/Ring_Buffer.cpp.o
-.PHONY : c_lib/Ring_Buffer.cpp.o
-
-c_lib/Ring_Buffer.i: c_lib/Ring_Buffer.cpp.i
-
-.PHONY : c_lib/Ring_Buffer.i
-
-# target to preprocess a source file
-c_lib/Ring_Buffer.cpp.i:
-	$(MAKE) -f CMakeFiles/Calculator-atmega32u4.dir/build.make CMakeFiles/Calculator-atmega32u4.dir/c_lib/Ring_Buffer.cpp.i
-.PHONY : c_lib/Ring_Buffer.cpp.i
-
-c_lib/Ring_Buffer.s: c_lib/Ring_Buffer.cpp.s
-
-.PHONY : c_lib/Ring_Buffer.s
-
-# target to generate assembly for a file
-c_lib/Ring_Buffer.cpp.s:
-	$(MAKE) -f CMakeFiles/Calculator-atmega32u4.dir/build.make CMakeFiles/Calculator-atmega32u4.dir/c_lib/Ring_Buffer.cpp.s
-.PHONY : c_lib/Ring_Buffer.cpp.s
-
-c_lib/SerialIO.o: c_lib/SerialIO.cpp.o
-
-.PHONY : c_lib/SerialIO.o
-
-# target to build an object file
-c_lib/SerialIO.cpp.o:
-	$(MAKE) -f CMakeFiles/Calculator-atmega32u4.dir/build.make CMakeFiles/Calculator-atmega32u4.dir/c_lib/SerialIO.cpp.o
-.PHONY : c_lib/SerialIO.cpp.o
-
-c_lib/SerialIO.i: c_lib/SerialIO.cpp.i
-
-.PHONY : c_lib/SerialIO.i
-
-# target to preprocess a source file
-c_lib/SerialIO.cpp.i:
-	$(MAKE) -f CMakeFiles/Calculator-atmega32u4.dir/build.make CMakeFiles/Calculator-atmega32u4.dir/c_lib/SerialIO.cpp.i
-.PHONY : c_lib/SerialIO.cpp.i
-
-c_lib/SerialIO.s: c_lib/SerialIO.cpp.s
-
-.PHONY : c_lib/SerialIO.s
-
-# target to generate assembly for a file
-c_lib/SerialIO.cpp.s:
-	$(MAKE) -f CMakeFiles/Calculator-atmega32u4.dir/build.make CMakeFiles/Calculator-atmega32u4.dir/c_lib/SerialIO.cpp.s
-.PHONY : c_lib/SerialIO.cpp.s
-
-c_lib/Task_Management.o: c_lib/Task_Management.cpp.o
-
-.PHONY : c_lib/Task_Management.o
-
-# target to build an object file
-c_lib/Task_Management.cpp.o:
-	$(MAKE) -f CMakeFiles/Calculator-atmega32u4.dir/build.make CMakeFiles/Calculator-atmega32u4.dir/c_lib/Task_Management.cpp.o
-.PHONY : c_lib/Task_Management.cpp.o
-
-c_lib/Task_Management.i: c_lib/Task_Management.cpp.i
-
-.PHONY : c_lib/Task_Management.i
-
-# target to preprocess a source file
-c_lib/Task_Management.cpp.i:
-	$(MAKE) -f CMakeFiles/Calculator-atmega32u4.dir/build.make CMakeFiles/Calculator-atmega32u4.dir/c_lib/Task_Management.cpp.i
-.PHONY : c_lib/Task_Management.cpp.i
-
-c_lib/Task_Management.s: c_lib/Task_Management.cpp.s
-
-.PHONY : c_lib/Task_Management.s
-
-# target to generate assembly for a file
-c_lib/Task_Management.cpp.s:
-	$(MAKE) -f CMakeFiles/Calculator-atmega32u4.dir/build.make CMakeFiles/Calculator-atmega32u4.dir/c_lib/Task_Management.cpp.s
-.PHONY : c_lib/Task_Management.cpp.s
-
-c_lib/Timing.o: c_lib/Timing.cpp.o
-
-.PHONY : c_lib/Timing.o
-
-# target to build an object file
-c_lib/Timing.cpp.o:
-	$(MAKE) -f CMakeFiles/Calculator-atmega32u4.dir/build.make CMakeFiles/Calculator-atmega32u4.dir/c_lib/Timing.cpp.o
-.PHONY : c_lib/Timing.cpp.o
-
-c_lib/Timing.i: c_lib/Timing.cpp.i
-
-.PHONY : c_lib/Timing.i
-
-# target to preprocess a source file
-c_lib/Timing.cpp.i:
-	$(MAKE) -f CMakeFiles/Calculator-atmega32u4.dir/build.make CMakeFiles/Calculator-atmega32u4.dir/c_lib/Timing.cpp.i
-.PHONY : c_lib/Timing.cpp.i
-
-c_lib/Timing.s: c_lib/Timing.cpp.s
-
-.PHONY : c_lib/Timing.s
-
-# target to generate assembly for a file
-c_lib/Timing.cpp.s:
-	$(MAKE) -f CMakeFiles/Calculator-atmega32u4.dir/build.make CMakeFiles/Calculator-atmega32u4.dir/c_lib/Timing.cpp.s
-.PHONY : c_lib/Timing.cpp.s
-
-c_lib/USB_Config/Descriptors.o: c_lib/USB_Config/Descriptors.c.o
-
-.PHONY : c_lib/USB_Config/Descriptors.o
-
-# target to build an object file
-c_lib/USB_Config/Descriptors.c.o:
-	$(MAKE) -f CMakeFiles/LUFA_USB-atmega32u4.dir/build.make CMakeFiles/LUFA_USB-atmega32u4.dir/c_lib/USB_Config/Descriptors.c.o
-.PHONY : c_lib/USB_Config/Descriptors.c.o
+c_lib/USB_Config/Descriptors.c.obj:
+	$(MAKE) -f CMakeFiles/LUFA_USB-atmega32u4.dir/build.make CMakeFiles/LUFA_USB-atmega32u4.dir/c_lib/USB_Config/Descriptors.c.obj
+.PHONY : c_lib/USB_Config/Descriptors.c.obj
 
 c_lib/USB_Config/Descriptors.i: c_lib/USB_Config/Descriptors.c.i
 
@@ -580,176 +321,14 @@ c_lib/USB_Config/Descriptors.c.s:
 	$(MAKE) -f CMakeFiles/LUFA_USB-atmega32u4.dir/build.make CMakeFiles/LUFA_USB-atmega32u4.dir/c_lib/USB_Config/Descriptors.c.s
 .PHONY : c_lib/USB_Config/Descriptors.c.s
 
-c_lib/ZoomieZumo.o: c_lib/ZoomieZumo.cpp.o
+lufa/LUFA/Drivers/USB/Class/Common/HIDParser.obj: lufa/LUFA/Drivers/USB/Class/Common/HIDParser.c.obj
 
-.PHONY : c_lib/ZoomieZumo.o
-
-# target to build an object file
-c_lib/ZoomieZumo.cpp.o:
-	$(MAKE) -f CMakeFiles/Calculator-atmega32u4.dir/build.make CMakeFiles/Calculator-atmega32u4.dir/c_lib/ZoomieZumo.cpp.o
-.PHONY : c_lib/ZoomieZumo.cpp.o
-
-c_lib/ZoomieZumo.i: c_lib/ZoomieZumo.cpp.i
-
-.PHONY : c_lib/ZoomieZumo.i
-
-# target to preprocess a source file
-c_lib/ZoomieZumo.cpp.i:
-	$(MAKE) -f CMakeFiles/Calculator-atmega32u4.dir/build.make CMakeFiles/Calculator-atmega32u4.dir/c_lib/ZoomieZumo.cpp.i
-.PHONY : c_lib/ZoomieZumo.cpp.i
-
-c_lib/ZoomieZumo.s: c_lib/ZoomieZumo.cpp.s
-
-.PHONY : c_lib/ZoomieZumo.s
-
-# target to generate assembly for a file
-c_lib/ZoomieZumo.cpp.s:
-	$(MAKE) -f CMakeFiles/Calculator-atmega32u4.dir/build.make CMakeFiles/Calculator-atmega32u4.dir/c_lib/ZoomieZumo.cpp.s
-.PHONY : c_lib/ZoomieZumo.cpp.s
-
-c_lib/analog.o: c_lib/analog.c.o
-
-.PHONY : c_lib/analog.o
+.PHONY : lufa/LUFA/Drivers/USB/Class/Common/HIDParser.obj
 
 # target to build an object file
-c_lib/analog.c.o:
-	$(MAKE) -f CMakeFiles/Calculator-atmega32u4.dir/build.make CMakeFiles/Calculator-atmega32u4.dir/c_lib/analog.c.o
-.PHONY : c_lib/analog.c.o
-
-c_lib/analog.i: c_lib/analog.c.i
-
-.PHONY : c_lib/analog.i
-
-# target to preprocess a source file
-c_lib/analog.c.i:
-	$(MAKE) -f CMakeFiles/Calculator-atmega32u4.dir/build.make CMakeFiles/Calculator-atmega32u4.dir/c_lib/analog.c.i
-.PHONY : c_lib/analog.c.i
-
-c_lib/analog.s: c_lib/analog.c.s
-
-.PHONY : c_lib/analog.s
-
-# target to generate assembly for a file
-c_lib/analog.c.s:
-	$(MAKE) -f CMakeFiles/Calculator-atmega32u4.dir/build.make CMakeFiles/Calculator-atmega32u4.dir/c_lib/analog.c.s
-.PHONY : c_lib/analog.c.s
-
-c_lib/print.o: c_lib/print.cpp.o
-
-.PHONY : c_lib/print.o
-
-# target to build an object file
-c_lib/print.cpp.o:
-	$(MAKE) -f CMakeFiles/Calculator-atmega32u4.dir/build.make CMakeFiles/Calculator-atmega32u4.dir/c_lib/print.cpp.o
-.PHONY : c_lib/print.cpp.o
-
-c_lib/print.i: c_lib/print.cpp.i
-
-.PHONY : c_lib/print.i
-
-# target to preprocess a source file
-c_lib/print.cpp.i:
-	$(MAKE) -f CMakeFiles/Calculator-atmega32u4.dir/build.make CMakeFiles/Calculator-atmega32u4.dir/c_lib/print.cpp.i
-.PHONY : c_lib/print.cpp.i
-
-c_lib/print.s: c_lib/print.cpp.s
-
-.PHONY : c_lib/print.s
-
-# target to generate assembly for a file
-c_lib/print.cpp.s:
-	$(MAKE) -f CMakeFiles/Calculator-atmega32u4.dir/build.make CMakeFiles/Calculator-atmega32u4.dir/c_lib/print.cpp.s
-.PHONY : c_lib/print.cpp.s
-
-c_lib/state_space_control.o: c_lib/state_space_control.cpp.o
-
-.PHONY : c_lib/state_space_control.o
-
-# target to build an object file
-c_lib/state_space_control.cpp.o:
-	$(MAKE) -f CMakeFiles/Calculator-atmega32u4.dir/build.make CMakeFiles/Calculator-atmega32u4.dir/c_lib/state_space_control.cpp.o
-.PHONY : c_lib/state_space_control.cpp.o
-
-c_lib/state_space_control.i: c_lib/state_space_control.cpp.i
-
-.PHONY : c_lib/state_space_control.i
-
-# target to preprocess a source file
-c_lib/state_space_control.cpp.i:
-	$(MAKE) -f CMakeFiles/Calculator-atmega32u4.dir/build.make CMakeFiles/Calculator-atmega32u4.dir/c_lib/state_space_control.cpp.i
-.PHONY : c_lib/state_space_control.cpp.i
-
-c_lib/state_space_control.s: c_lib/state_space_control.cpp.s
-
-.PHONY : c_lib/state_space_control.s
-
-# target to generate assembly for a file
-c_lib/state_space_control.cpp.s:
-	$(MAKE) -f CMakeFiles/Calculator-atmega32u4.dir/build.make CMakeFiles/Calculator-atmega32u4.dir/c_lib/state_space_control.cpp.s
-.PHONY : c_lib/state_space_control.cpp.s
-
-c_lib/twimaster.o: c_lib/twimaster.cpp.o
-
-.PHONY : c_lib/twimaster.o
-
-# target to build an object file
-c_lib/twimaster.cpp.o:
-	$(MAKE) -f CMakeFiles/Calculator-atmega32u4.dir/build.make CMakeFiles/Calculator-atmega32u4.dir/c_lib/twimaster.cpp.o
-.PHONY : c_lib/twimaster.cpp.o
-
-c_lib/twimaster.i: c_lib/twimaster.cpp.i
-
-.PHONY : c_lib/twimaster.i
-
-# target to preprocess a source file
-c_lib/twimaster.cpp.i:
-	$(MAKE) -f CMakeFiles/Calculator-atmega32u4.dir/build.make CMakeFiles/Calculator-atmega32u4.dir/c_lib/twimaster.cpp.i
-.PHONY : c_lib/twimaster.cpp.i
-
-c_lib/twimaster.s: c_lib/twimaster.cpp.s
-
-.PHONY : c_lib/twimaster.s
-
-# target to generate assembly for a file
-c_lib/twimaster.cpp.s:
-	$(MAKE) -f CMakeFiles/Calculator-atmega32u4.dir/build.make CMakeFiles/Calculator-atmega32u4.dir/c_lib/twimaster.cpp.s
-.PHONY : c_lib/twimaster.cpp.s
-
-c_lib/usb_debug_only.o: c_lib/usb_debug_only.cpp.o
-
-.PHONY : c_lib/usb_debug_only.o
-
-# target to build an object file
-c_lib/usb_debug_only.cpp.o:
-	$(MAKE) -f CMakeFiles/Calculator-atmega32u4.dir/build.make CMakeFiles/Calculator-atmega32u4.dir/c_lib/usb_debug_only.cpp.o
-.PHONY : c_lib/usb_debug_only.cpp.o
-
-c_lib/usb_debug_only.i: c_lib/usb_debug_only.cpp.i
-
-.PHONY : c_lib/usb_debug_only.i
-
-# target to preprocess a source file
-c_lib/usb_debug_only.cpp.i:
-	$(MAKE) -f CMakeFiles/Calculator-atmega32u4.dir/build.make CMakeFiles/Calculator-atmega32u4.dir/c_lib/usb_debug_only.cpp.i
-.PHONY : c_lib/usb_debug_only.cpp.i
-
-c_lib/usb_debug_only.s: c_lib/usb_debug_only.cpp.s
-
-.PHONY : c_lib/usb_debug_only.s
-
-# target to generate assembly for a file
-c_lib/usb_debug_only.cpp.s:
-	$(MAKE) -f CMakeFiles/Calculator-atmega32u4.dir/build.make CMakeFiles/Calculator-atmega32u4.dir/c_lib/usb_debug_only.cpp.s
-.PHONY : c_lib/usb_debug_only.cpp.s
-
-lufa/LUFA/Drivers/USB/Class/Common/HIDParser.o: lufa/LUFA/Drivers/USB/Class/Common/HIDParser.c.o
-
-.PHONY : lufa/LUFA/Drivers/USB/Class/Common/HIDParser.o
-
-# target to build an object file
-lufa/LUFA/Drivers/USB/Class/Common/HIDParser.c.o:
-	$(MAKE) -f CMakeFiles/LUFA_USB-atmega32u4.dir/build.make CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Class/Common/HIDParser.c.o
-.PHONY : lufa/LUFA/Drivers/USB/Class/Common/HIDParser.c.o
+lufa/LUFA/Drivers/USB/Class/Common/HIDParser.c.obj:
+	$(MAKE) -f CMakeFiles/LUFA_USB-atmega32u4.dir/build.make CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Class/Common/HIDParser.c.obj
+.PHONY : lufa/LUFA/Drivers/USB/Class/Common/HIDParser.c.obj
 
 lufa/LUFA/Drivers/USB/Class/Common/HIDParser.i: lufa/LUFA/Drivers/USB/Class/Common/HIDParser.c.i
 
@@ -769,14 +348,14 @@ lufa/LUFA/Drivers/USB/Class/Common/HIDParser.c.s:
 	$(MAKE) -f CMakeFiles/LUFA_USB-atmega32u4.dir/build.make CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Class/Common/HIDParser.c.s
 .PHONY : lufa/LUFA/Drivers/USB/Class/Common/HIDParser.c.s
 
-lufa/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.o: lufa/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.c.o
+lufa/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.obj: lufa/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.c.obj
 
-.PHONY : lufa/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.o
+.PHONY : lufa/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.obj
 
 # target to build an object file
-lufa/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.c.o:
-	$(MAKE) -f CMakeFiles/LUFA_USB-atmega32u4.dir/build.make CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.c.o
-.PHONY : lufa/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.c.o
+lufa/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.c.obj:
+	$(MAKE) -f CMakeFiles/LUFA_USB-atmega32u4.dir/build.make CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.c.obj
+.PHONY : lufa/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.c.obj
 
 lufa/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.i: lufa/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.c.i
 
@@ -796,14 +375,14 @@ lufa/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.c.s:
 	$(MAKE) -f CMakeFiles/LUFA_USB-atmega32u4.dir/build.make CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.c.s
 .PHONY : lufa/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.c.s
 
-lufa/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o: lufa/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.c.o
+lufa/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.obj: lufa/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.c.obj
 
-.PHONY : lufa/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+.PHONY : lufa/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.obj
 
 # target to build an object file
-lufa/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.c.o:
-	$(MAKE) -f CMakeFiles/LUFA_USB-atmega32u4.dir/build.make CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.c.o
-.PHONY : lufa/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.c.o
+lufa/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.c.obj:
+	$(MAKE) -f CMakeFiles/LUFA_USB-atmega32u4.dir/build.make CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.c.obj
+.PHONY : lufa/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.c.obj
 
 lufa/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.i: lufa/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.c.i
 
@@ -823,14 +402,14 @@ lufa/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.c.s:
 	$(MAKE) -f CMakeFiles/LUFA_USB-atmega32u4.dir/build.make CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.c.s
 .PHONY : lufa/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.c.s
 
-lufa/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.o: lufa/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.c.o
+lufa/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.obj: lufa/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.c.obj
 
-.PHONY : lufa/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.o
+.PHONY : lufa/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.obj
 
 # target to build an object file
-lufa/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.c.o:
-	$(MAKE) -f CMakeFiles/LUFA_USB-atmega32u4.dir/build.make CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.c.o
-.PHONY : lufa/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.c.o
+lufa/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.c.obj:
+	$(MAKE) -f CMakeFiles/LUFA_USB-atmega32u4.dir/build.make CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.c.obj
+.PHONY : lufa/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.c.obj
 
 lufa/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.i: lufa/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.c.i
 
@@ -850,14 +429,14 @@ lufa/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.c.s:
 	$(MAKE) -f CMakeFiles/LUFA_USB-atmega32u4.dir/build.make CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.c.s
 .PHONY : lufa/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.c.s
 
-lufa/LUFA/Drivers/USB/Core/AVR8/Host_AVR8.o: lufa/LUFA/Drivers/USB/Core/AVR8/Host_AVR8.c.o
+lufa/LUFA/Drivers/USB/Core/AVR8/Host_AVR8.obj: lufa/LUFA/Drivers/USB/Core/AVR8/Host_AVR8.c.obj
 
-.PHONY : lufa/LUFA/Drivers/USB/Core/AVR8/Host_AVR8.o
+.PHONY : lufa/LUFA/Drivers/USB/Core/AVR8/Host_AVR8.obj
 
 # target to build an object file
-lufa/LUFA/Drivers/USB/Core/AVR8/Host_AVR8.c.o:
-	$(MAKE) -f CMakeFiles/LUFA_USB-atmega32u4.dir/build.make CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Host_AVR8.c.o
-.PHONY : lufa/LUFA/Drivers/USB/Core/AVR8/Host_AVR8.c.o
+lufa/LUFA/Drivers/USB/Core/AVR8/Host_AVR8.c.obj:
+	$(MAKE) -f CMakeFiles/LUFA_USB-atmega32u4.dir/build.make CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Host_AVR8.c.obj
+.PHONY : lufa/LUFA/Drivers/USB/Core/AVR8/Host_AVR8.c.obj
 
 lufa/LUFA/Drivers/USB/Core/AVR8/Host_AVR8.i: lufa/LUFA/Drivers/USB/Core/AVR8/Host_AVR8.c.i
 
@@ -877,14 +456,14 @@ lufa/LUFA/Drivers/USB/Core/AVR8/Host_AVR8.c.s:
 	$(MAKE) -f CMakeFiles/LUFA_USB-atmega32u4.dir/build.make CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Host_AVR8.c.s
 .PHONY : lufa/LUFA/Drivers/USB/Core/AVR8/Host_AVR8.c.s
 
-lufa/LUFA/Drivers/USB/Core/AVR8/PipeStream_AVR8.o: lufa/LUFA/Drivers/USB/Core/AVR8/PipeStream_AVR8.c.o
+lufa/LUFA/Drivers/USB/Core/AVR8/PipeStream_AVR8.obj: lufa/LUFA/Drivers/USB/Core/AVR8/PipeStream_AVR8.c.obj
 
-.PHONY : lufa/LUFA/Drivers/USB/Core/AVR8/PipeStream_AVR8.o
+.PHONY : lufa/LUFA/Drivers/USB/Core/AVR8/PipeStream_AVR8.obj
 
 # target to build an object file
-lufa/LUFA/Drivers/USB/Core/AVR8/PipeStream_AVR8.c.o:
-	$(MAKE) -f CMakeFiles/LUFA_USB-atmega32u4.dir/build.make CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/PipeStream_AVR8.c.o
-.PHONY : lufa/LUFA/Drivers/USB/Core/AVR8/PipeStream_AVR8.c.o
+lufa/LUFA/Drivers/USB/Core/AVR8/PipeStream_AVR8.c.obj:
+	$(MAKE) -f CMakeFiles/LUFA_USB-atmega32u4.dir/build.make CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/PipeStream_AVR8.c.obj
+.PHONY : lufa/LUFA/Drivers/USB/Core/AVR8/PipeStream_AVR8.c.obj
 
 lufa/LUFA/Drivers/USB/Core/AVR8/PipeStream_AVR8.i: lufa/LUFA/Drivers/USB/Core/AVR8/PipeStream_AVR8.c.i
 
@@ -904,14 +483,14 @@ lufa/LUFA/Drivers/USB/Core/AVR8/PipeStream_AVR8.c.s:
 	$(MAKE) -f CMakeFiles/LUFA_USB-atmega32u4.dir/build.make CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/PipeStream_AVR8.c.s
 .PHONY : lufa/LUFA/Drivers/USB/Core/AVR8/PipeStream_AVR8.c.s
 
-lufa/LUFA/Drivers/USB/Core/AVR8/Pipe_AVR8.o: lufa/LUFA/Drivers/USB/Core/AVR8/Pipe_AVR8.c.o
+lufa/LUFA/Drivers/USB/Core/AVR8/Pipe_AVR8.obj: lufa/LUFA/Drivers/USB/Core/AVR8/Pipe_AVR8.c.obj
 
-.PHONY : lufa/LUFA/Drivers/USB/Core/AVR8/Pipe_AVR8.o
+.PHONY : lufa/LUFA/Drivers/USB/Core/AVR8/Pipe_AVR8.obj
 
 # target to build an object file
-lufa/LUFA/Drivers/USB/Core/AVR8/Pipe_AVR8.c.o:
-	$(MAKE) -f CMakeFiles/LUFA_USB-atmega32u4.dir/build.make CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Pipe_AVR8.c.o
-.PHONY : lufa/LUFA/Drivers/USB/Core/AVR8/Pipe_AVR8.c.o
+lufa/LUFA/Drivers/USB/Core/AVR8/Pipe_AVR8.c.obj:
+	$(MAKE) -f CMakeFiles/LUFA_USB-atmega32u4.dir/build.make CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Pipe_AVR8.c.obj
+.PHONY : lufa/LUFA/Drivers/USB/Core/AVR8/Pipe_AVR8.c.obj
 
 lufa/LUFA/Drivers/USB/Core/AVR8/Pipe_AVR8.i: lufa/LUFA/Drivers/USB/Core/AVR8/Pipe_AVR8.c.i
 
@@ -931,14 +510,14 @@ lufa/LUFA/Drivers/USB/Core/AVR8/Pipe_AVR8.c.s:
 	$(MAKE) -f CMakeFiles/LUFA_USB-atmega32u4.dir/build.make CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/Pipe_AVR8.c.s
 .PHONY : lufa/LUFA/Drivers/USB/Core/AVR8/Pipe_AVR8.c.s
 
-lufa/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.o: lufa/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.c.o
+lufa/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.obj: lufa/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.c.obj
 
-.PHONY : lufa/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.o
+.PHONY : lufa/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.obj
 
 # target to build an object file
-lufa/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.c.o:
-	$(MAKE) -f CMakeFiles/LUFA_USB-atmega32u4.dir/build.make CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.c.o
-.PHONY : lufa/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.c.o
+lufa/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.c.obj:
+	$(MAKE) -f CMakeFiles/LUFA_USB-atmega32u4.dir/build.make CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.c.obj
+.PHONY : lufa/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.c.obj
 
 lufa/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.i: lufa/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.c.i
 
@@ -958,14 +537,14 @@ lufa/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.c.s:
 	$(MAKE) -f CMakeFiles/LUFA_USB-atmega32u4.dir/build.make CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.c.s
 .PHONY : lufa/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.c.s
 
-lufa/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.o: lufa/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.c.o
+lufa/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.obj: lufa/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.c.obj
 
-.PHONY : lufa/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.o
+.PHONY : lufa/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.obj
 
 # target to build an object file
-lufa/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.c.o:
-	$(MAKE) -f CMakeFiles/LUFA_USB-atmega32u4.dir/build.make CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.c.o
-.PHONY : lufa/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.c.o
+lufa/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.c.obj:
+	$(MAKE) -f CMakeFiles/LUFA_USB-atmega32u4.dir/build.make CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.c.obj
+.PHONY : lufa/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.c.obj
 
 lufa/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.i: lufa/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.c.i
 
@@ -985,14 +564,14 @@ lufa/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.c.s:
 	$(MAKE) -f CMakeFiles/LUFA_USB-atmega32u4.dir/build.make CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.c.s
 .PHONY : lufa/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.c.s
 
-lufa/LUFA/Drivers/USB/Core/ConfigDescriptors.o: lufa/LUFA/Drivers/USB/Core/ConfigDescriptors.c.o
+lufa/LUFA/Drivers/USB/Core/ConfigDescriptors.obj: lufa/LUFA/Drivers/USB/Core/ConfigDescriptors.c.obj
 
-.PHONY : lufa/LUFA/Drivers/USB/Core/ConfigDescriptors.o
+.PHONY : lufa/LUFA/Drivers/USB/Core/ConfigDescriptors.obj
 
 # target to build an object file
-lufa/LUFA/Drivers/USB/Core/ConfigDescriptors.c.o:
-	$(MAKE) -f CMakeFiles/LUFA_USB-atmega32u4.dir/build.make CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/ConfigDescriptors.c.o
-.PHONY : lufa/LUFA/Drivers/USB/Core/ConfigDescriptors.c.o
+lufa/LUFA/Drivers/USB/Core/ConfigDescriptors.c.obj:
+	$(MAKE) -f CMakeFiles/LUFA_USB-atmega32u4.dir/build.make CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/ConfigDescriptors.c.obj
+.PHONY : lufa/LUFA/Drivers/USB/Core/ConfigDescriptors.c.obj
 
 lufa/LUFA/Drivers/USB/Core/ConfigDescriptors.i: lufa/LUFA/Drivers/USB/Core/ConfigDescriptors.c.i
 
@@ -1012,14 +591,14 @@ lufa/LUFA/Drivers/USB/Core/ConfigDescriptors.c.s:
 	$(MAKE) -f CMakeFiles/LUFA_USB-atmega32u4.dir/build.make CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/ConfigDescriptors.c.s
 .PHONY : lufa/LUFA/Drivers/USB/Core/ConfigDescriptors.c.s
 
-lufa/LUFA/Drivers/USB/Core/DeviceStandardReq.o: lufa/LUFA/Drivers/USB/Core/DeviceStandardReq.c.o
+lufa/LUFA/Drivers/USB/Core/DeviceStandardReq.obj: lufa/LUFA/Drivers/USB/Core/DeviceStandardReq.c.obj
 
-.PHONY : lufa/LUFA/Drivers/USB/Core/DeviceStandardReq.o
+.PHONY : lufa/LUFA/Drivers/USB/Core/DeviceStandardReq.obj
 
 # target to build an object file
-lufa/LUFA/Drivers/USB/Core/DeviceStandardReq.c.o:
-	$(MAKE) -f CMakeFiles/LUFA_USB-atmega32u4.dir/build.make CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/DeviceStandardReq.c.o
-.PHONY : lufa/LUFA/Drivers/USB/Core/DeviceStandardReq.c.o
+lufa/LUFA/Drivers/USB/Core/DeviceStandardReq.c.obj:
+	$(MAKE) -f CMakeFiles/LUFA_USB-atmega32u4.dir/build.make CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/DeviceStandardReq.c.obj
+.PHONY : lufa/LUFA/Drivers/USB/Core/DeviceStandardReq.c.obj
 
 lufa/LUFA/Drivers/USB/Core/DeviceStandardReq.i: lufa/LUFA/Drivers/USB/Core/DeviceStandardReq.c.i
 
@@ -1039,14 +618,14 @@ lufa/LUFA/Drivers/USB/Core/DeviceStandardReq.c.s:
 	$(MAKE) -f CMakeFiles/LUFA_USB-atmega32u4.dir/build.make CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/DeviceStandardReq.c.s
 .PHONY : lufa/LUFA/Drivers/USB/Core/DeviceStandardReq.c.s
 
-lufa/LUFA/Drivers/USB/Core/Events.o: lufa/LUFA/Drivers/USB/Core/Events.c.o
+lufa/LUFA/Drivers/USB/Core/Events.obj: lufa/LUFA/Drivers/USB/Core/Events.c.obj
 
-.PHONY : lufa/LUFA/Drivers/USB/Core/Events.o
+.PHONY : lufa/LUFA/Drivers/USB/Core/Events.obj
 
 # target to build an object file
-lufa/LUFA/Drivers/USB/Core/Events.c.o:
-	$(MAKE) -f CMakeFiles/LUFA_USB-atmega32u4.dir/build.make CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/Events.c.o
-.PHONY : lufa/LUFA/Drivers/USB/Core/Events.c.o
+lufa/LUFA/Drivers/USB/Core/Events.c.obj:
+	$(MAKE) -f CMakeFiles/LUFA_USB-atmega32u4.dir/build.make CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/Events.c.obj
+.PHONY : lufa/LUFA/Drivers/USB/Core/Events.c.obj
 
 lufa/LUFA/Drivers/USB/Core/Events.i: lufa/LUFA/Drivers/USB/Core/Events.c.i
 
@@ -1066,14 +645,14 @@ lufa/LUFA/Drivers/USB/Core/Events.c.s:
 	$(MAKE) -f CMakeFiles/LUFA_USB-atmega32u4.dir/build.make CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/Events.c.s
 .PHONY : lufa/LUFA/Drivers/USB/Core/Events.c.s
 
-lufa/LUFA/Drivers/USB/Core/HostStandardReq.o: lufa/LUFA/Drivers/USB/Core/HostStandardReq.c.o
+lufa/LUFA/Drivers/USB/Core/HostStandardReq.obj: lufa/LUFA/Drivers/USB/Core/HostStandardReq.c.obj
 
-.PHONY : lufa/LUFA/Drivers/USB/Core/HostStandardReq.o
+.PHONY : lufa/LUFA/Drivers/USB/Core/HostStandardReq.obj
 
 # target to build an object file
-lufa/LUFA/Drivers/USB/Core/HostStandardReq.c.o:
-	$(MAKE) -f CMakeFiles/LUFA_USB-atmega32u4.dir/build.make CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/HostStandardReq.c.o
-.PHONY : lufa/LUFA/Drivers/USB/Core/HostStandardReq.c.o
+lufa/LUFA/Drivers/USB/Core/HostStandardReq.c.obj:
+	$(MAKE) -f CMakeFiles/LUFA_USB-atmega32u4.dir/build.make CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/HostStandardReq.c.obj
+.PHONY : lufa/LUFA/Drivers/USB/Core/HostStandardReq.c.obj
 
 lufa/LUFA/Drivers/USB/Core/HostStandardReq.i: lufa/LUFA/Drivers/USB/Core/HostStandardReq.c.i
 
@@ -1093,14 +672,14 @@ lufa/LUFA/Drivers/USB/Core/HostStandardReq.c.s:
 	$(MAKE) -f CMakeFiles/LUFA_USB-atmega32u4.dir/build.make CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/HostStandardReq.c.s
 .PHONY : lufa/LUFA/Drivers/USB/Core/HostStandardReq.c.s
 
-lufa/LUFA/Drivers/USB/Core/USBTask.o: lufa/LUFA/Drivers/USB/Core/USBTask.c.o
+lufa/LUFA/Drivers/USB/Core/USBTask.obj: lufa/LUFA/Drivers/USB/Core/USBTask.c.obj
 
-.PHONY : lufa/LUFA/Drivers/USB/Core/USBTask.o
+.PHONY : lufa/LUFA/Drivers/USB/Core/USBTask.obj
 
 # target to build an object file
-lufa/LUFA/Drivers/USB/Core/USBTask.c.o:
-	$(MAKE) -f CMakeFiles/LUFA_USB-atmega32u4.dir/build.make CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/USBTask.c.o
-.PHONY : lufa/LUFA/Drivers/USB/Core/USBTask.c.o
+lufa/LUFA/Drivers/USB/Core/USBTask.c.obj:
+	$(MAKE) -f CMakeFiles/LUFA_USB-atmega32u4.dir/build.make CMakeFiles/LUFA_USB-atmega32u4.dir/lufa/LUFA/Drivers/USB/Core/USBTask.c.obj
+.PHONY : lufa/LUFA/Drivers/USB/Core/USBTask.c.obj
 
 lufa/LUFA/Drivers/USB/Core/USBTask.i: lufa/LUFA/Drivers/USB/Core/USBTask.c.i
 
@@ -1127,115 +706,66 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
-	@echo "... Calculator"
+	@echo "... disassemble_Calc"
+	@echo "... upload_Calc_eeprom"
+	@echo "... upload_Calc"
+	@echo "... Calc"
+	@echo "... Calc-atmega32u4.elf"
+	@echo "... CALCULATOR-atmega32u4"
 	@echo "... LUFA_USB"
 	@echo "... rebuild_cache"
 	@echo "... LUFA_USB-atmega32u4"
-	@echo "... Calculator-atmega32u4"
+	@echo "... CALCULATOR"
 	@echo "... erase_program"
-	@echo "... c_lib/Battery_Monitor.o"
-	@echo "... c_lib/Battery_Monitor.i"
-	@echo "... c_lib/Battery_Monitor.s"
-	@echo "... c_lib/Controller.o"
-	@echo "... c_lib/Controller.i"
-	@echo "... c_lib/Controller.s"
-	@echo "... c_lib/EEPROM.o"
-	@echo "... c_lib/EEPROM.i"
-	@echo "... c_lib/EEPROM.s"
-	@echo "... c_lib/Encoder.o"
-	@echo "... c_lib/Encoder.i"
-	@echo "... c_lib/Encoder.s"
-	@echo "... c_lib/Filter.o"
-	@echo "... c_lib/Filter.i"
-	@echo "... c_lib/Filter.s"
-	@echo "... c_lib/I2C_MPU6050.o"
-	@echo "... c_lib/I2C_MPU6050.i"
-	@echo "... c_lib/I2C_MPU6050.s"
-	@echo "... c_lib/MEGN540_MessageHandeling.o"
-	@echo "... c_lib/MEGN540_MessageHandeling.i"
-	@echo "... c_lib/MEGN540_MessageHandeling.s"
-	@echo "... c_lib/MPU6050.o"
-	@echo "... c_lib/MPU6050.i"
-	@echo "... c_lib/MPU6050.s"
-	@echo "... c_lib/Matrix.o"
-	@echo "... c_lib/Matrix.i"
-	@echo "... c_lib/Matrix.s"
-	@echo "... c_lib/MotorPWM.o"
-	@echo "... c_lib/MotorPWM.i"
-	@echo "... c_lib/MotorPWM.s"
-	@echo "... c_lib/Ring_Buffer.o"
-	@echo "... c_lib/Ring_Buffer.i"
-	@echo "... c_lib/Ring_Buffer.s"
-	@echo "... c_lib/SerialIO.o"
-	@echo "... c_lib/SerialIO.i"
-	@echo "... c_lib/SerialIO.s"
-	@echo "... c_lib/Task_Management.o"
-	@echo "... c_lib/Task_Management.i"
-	@echo "... c_lib/Task_Management.s"
-	@echo "... c_lib/Timing.o"
-	@echo "... c_lib/Timing.i"
-	@echo "... c_lib/Timing.s"
-	@echo "... c_lib/USB_Config/Descriptors.o"
+	@echo "... Calc.obj"
+	@echo "... Calc.i"
+	@echo "... Calc.s"
+	@echo "... c_lib/LCD.obj"
+	@echo "... c_lib/LCD.i"
+	@echo "... c_lib/LCD.s"
+	@echo "... c_lib/USB_Config/Descriptors.obj"
 	@echo "... c_lib/USB_Config/Descriptors.i"
 	@echo "... c_lib/USB_Config/Descriptors.s"
-	@echo "... c_lib/ZoomieZumo.o"
-	@echo "... c_lib/ZoomieZumo.i"
-	@echo "... c_lib/ZoomieZumo.s"
-	@echo "... c_lib/analog.o"
-	@echo "... c_lib/analog.i"
-	@echo "... c_lib/analog.s"
-	@echo "... c_lib/print.o"
-	@echo "... c_lib/print.i"
-	@echo "... c_lib/print.s"
-	@echo "... c_lib/state_space_control.o"
-	@echo "... c_lib/state_space_control.i"
-	@echo "... c_lib/state_space_control.s"
-	@echo "... c_lib/twimaster.o"
-	@echo "... c_lib/twimaster.i"
-	@echo "... c_lib/twimaster.s"
-	@echo "... c_lib/usb_debug_only.o"
-	@echo "... c_lib/usb_debug_only.i"
-	@echo "... c_lib/usb_debug_only.s"
-	@echo "... lufa/LUFA/Drivers/USB/Class/Common/HIDParser.o"
+	@echo "... lufa/LUFA/Drivers/USB/Class/Common/HIDParser.obj"
 	@echo "... lufa/LUFA/Drivers/USB/Class/Common/HIDParser.i"
 	@echo "... lufa/LUFA/Drivers/USB/Class/Common/HIDParser.s"
-	@echo "... lufa/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.o"
+	@echo "... lufa/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.obj"
 	@echo "... lufa/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.i"
 	@echo "... lufa/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.s"
-	@echo "... lufa/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o"
+	@echo "... lufa/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.obj"
 	@echo "... lufa/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.i"
 	@echo "... lufa/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.s"
-	@echo "... lufa/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.o"
+	@echo "... lufa/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.obj"
 	@echo "... lufa/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.i"
 	@echo "... lufa/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.s"
-	@echo "... lufa/LUFA/Drivers/USB/Core/AVR8/Host_AVR8.o"
+	@echo "... lufa/LUFA/Drivers/USB/Core/AVR8/Host_AVR8.obj"
 	@echo "... lufa/LUFA/Drivers/USB/Core/AVR8/Host_AVR8.i"
 	@echo "... lufa/LUFA/Drivers/USB/Core/AVR8/Host_AVR8.s"
-	@echo "... lufa/LUFA/Drivers/USB/Core/AVR8/PipeStream_AVR8.o"
+	@echo "... lufa/LUFA/Drivers/USB/Core/AVR8/PipeStream_AVR8.obj"
 	@echo "... lufa/LUFA/Drivers/USB/Core/AVR8/PipeStream_AVR8.i"
 	@echo "... lufa/LUFA/Drivers/USB/Core/AVR8/PipeStream_AVR8.s"
-	@echo "... lufa/LUFA/Drivers/USB/Core/AVR8/Pipe_AVR8.o"
+	@echo "... lufa/LUFA/Drivers/USB/Core/AVR8/Pipe_AVR8.obj"
 	@echo "... lufa/LUFA/Drivers/USB/Core/AVR8/Pipe_AVR8.i"
 	@echo "... lufa/LUFA/Drivers/USB/Core/AVR8/Pipe_AVR8.s"
-	@echo "... lufa/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.o"
+	@echo "... lufa/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.obj"
 	@echo "... lufa/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.i"
 	@echo "... lufa/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.s"
-	@echo "... lufa/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.o"
+	@echo "... lufa/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.obj"
 	@echo "... lufa/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.i"
 	@echo "... lufa/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.s"
-	@echo "... lufa/LUFA/Drivers/USB/Core/ConfigDescriptors.o"
+	@echo "... lufa/LUFA/Drivers/USB/Core/ConfigDescriptors.obj"
 	@echo "... lufa/LUFA/Drivers/USB/Core/ConfigDescriptors.i"
 	@echo "... lufa/LUFA/Drivers/USB/Core/ConfigDescriptors.s"
-	@echo "... lufa/LUFA/Drivers/USB/Core/DeviceStandardReq.o"
+	@echo "... lufa/LUFA/Drivers/USB/Core/DeviceStandardReq.obj"
 	@echo "... lufa/LUFA/Drivers/USB/Core/DeviceStandardReq.i"
 	@echo "... lufa/LUFA/Drivers/USB/Core/DeviceStandardReq.s"
-	@echo "... lufa/LUFA/Drivers/USB/Core/Events.o"
+	@echo "... lufa/LUFA/Drivers/USB/Core/Events.obj"
 	@echo "... lufa/LUFA/Drivers/USB/Core/Events.i"
 	@echo "... lufa/LUFA/Drivers/USB/Core/Events.s"
-	@echo "... lufa/LUFA/Drivers/USB/Core/HostStandardReq.o"
+	@echo "... lufa/LUFA/Drivers/USB/Core/HostStandardReq.obj"
 	@echo "... lufa/LUFA/Drivers/USB/Core/HostStandardReq.i"
 	@echo "... lufa/LUFA/Drivers/USB/Core/HostStandardReq.s"
-	@echo "... lufa/LUFA/Drivers/USB/Core/USBTask.o"
+	@echo "... lufa/LUFA/Drivers/USB/Core/USBTask.obj"
 	@echo "... lufa/LUFA/Drivers/USB/Core/USBTask.i"
 	@echo "... lufa/LUFA/Drivers/USB/Core/USBTask.s"
 .PHONY : help

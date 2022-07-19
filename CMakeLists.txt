@@ -10,17 +10,16 @@ set(F_CPU 16000000UL)
 ##########################################################################
 set(AVR_UPLOADTOOL avrdude)
 set(AVR_PROGRAMMER avr109)
-set(AVR_UPLOADTOOL_PORT /dev/ttyCalculatorAVR)
+# set(AVR_UPLOADTOOL_PORT /dev/ttyACM0)->worked generically
+set(AVR_UPLOADTOOL_PORT /dev/ttyCalc)
+
 ##########################################################################
 # AVR and fuses needs to be set
 ##########################################################################
 set(AVR_MCU atmega32u4)
-# set(AVR_H_FUSE 0xd8)
-# set(AVR_L_FUSE 0xFF)
-# set(AVR_E_FUSE 0xcb)
-set(AVR_H_FUSE 0xd7)
-set(AVR_L_FUSE 0x5F) #5F
-set(AVR_E_FUSE 0xF4)
+set(AVR_H_FUSE 0xd8)
+set(AVR_L_FUSE 0xFF)
+set(AVR_E_FUSE 0xcb)
 set(MCU_SPEED ${F_CPU})
 
 include(generic-gcc-avr.cmake)
@@ -29,8 +28,13 @@ include(generic-gcc-avr.cmake)
 set(MCU ${AVR_MCU})
 set(ARCH AVR8)
 set(BOARD USER)
-set(VID 0x1ffb)
-set(PID 0x2300)
+
+set(VID 0x239a)
+set(PID 0x800e)
+############
+# set(VID 0x1ffb)
+# set(PID 0x2300)
+############
 set(F_USB ${F_CPU})
 
 
@@ -93,7 +97,7 @@ message(STATUS "Set CMAKE_SYSTEM_LIBRARY_PATH to ${CMAKE_SYSTEM_LIBRARY_PATH}")
 # Find Libraries
 ##########################################################################
 
-find_library(C_LIB cpp) #c->cpp
+find_library(C_LIB c)
 message(STATUS "Found avr-libc at: ${C_LIB}")
 
 ##########################################################################
@@ -121,17 +125,16 @@ add_definitions(
   # Define Clock Speed as F_CPU 
   -DF_CPU=${MCU_SPEED}
 
-  # Compile Flags
-  -fpack-struct
-  -fshort-enums
-  -Wall
-  #-Werror  # this turns warnings in to errors. Helpful in practice. But and issues with our to-be-done library code
-  -funsigned-char
-  -funsigned-bitfields
-  -ffunction-sections
-  -c #c->cpp
+  # Compile Flags (https://linux.die.net/man/1/avr-gcc)
+  -fpack-struct # this signals the compiler not to add padding to structures. This fine becasue were running on an 8bit architecture anyway
+  -fshort-enums # choose enum type based on max enum value required. This will likely keep them as 8-bit for our purposes.
+  -Wall    # this turns on all warnings
+  -Werror  # this turns warnings in to errors.
+  -funsigned-char # ensures char is treated as unsigned during math 
+  -funsigned-bitfields # ensures bitfields are treated as unsigned during math 
+  -ffunction-sections  #places each funciton into its own section allowing for better elf optimizations
+  -c # dont do linking (that will be done later)
   #-std=gnu99
-  -std=c++11
 
   # LUFA DEFNITIONS
   -DF_USB=${F_USB}
@@ -147,20 +150,19 @@ add_definitions(
   -DINTERRUPT_CONTROL_ENDPOINT
 )
 
-set(CALC_CPP_LIB_PATH ${CMAKE_CURRENT_LIST_DIR}/c_lib)
+set(CALC_C_LIB_PATH ${CMAKE_CURRENT_LIST_DIR}/c_lib)
 set(LUFA_DIR ${CMAKE_CURRENT_LIST_DIR}/lufa)
 set(LUFA_PATH ${LUFA_DIR}/LUFA)
 
-set(EIGEN_DIR /usr/include/eigen3)
 # Find and add lufa subdirs for header files
-include_directories(${LUFA_DIR} ${CALC_CPP_LIB_PATH} ${CALC_CPP_LIB_PATH}/USB_Config ${EIGEN_DIR})
+include_directories(${LUFA_DIR} ${CALC_C_LIB_PATH} ${CALC_C_LIB_PATH}/USB_Config)
 
 ## ADD LUFA LIBRARY
 add_avr_library( LUFA_USB 
    ## Project Specific LUFA Descriptors
-   ${CALC_CPP_LIB_PATH}/USB_Config/Descriptors.c #c->cpp
+   ${CALC_C_LIB_PATH}/USB_Config/Descriptors.c
 
-   ## Lufa Core Code
+   ## Lufa Core Code for USB Interface
    ${LUFA_PATH}/Drivers/USB/Core/${ARCH}/USBController_${ARCH}.c
    ${LUFA_PATH}/Drivers/USB/Core/${ARCH}/USBInterrupt_${ARCH}.c
    ${LUFA_PATH}/Drivers/USB/Core/ConfigDescriptors.c
@@ -178,17 +180,28 @@ add_avr_library( LUFA_USB
    ${LUFA_PATH}/Drivers/USB/Core/${ARCH}/EndpointStream_${ARCH}.c
    ${LUFA_PATH}/Drivers/USB/Core/DeviceStandardReq.c
 )
-# )
-## ADD CALC Library
 
-file(GLOB CALC_CPP_LIB_SRC_FILES "${CALC_CPP_LIB_PATH}/*.cpp") # Load all files in src folder
-file(GLOB CALC_C_LIB_SRC_FILES "${CALC_CPP_LIB_PATH}/*.c")
-add_avr_library( Calculator ${CALC_CPP_LIB_SRC_FILES} ${CALC_C_LIB_SRC_FILES}) #c->cpp MEGN540->Calculator
-avr_target_link_libraries(Calculator LUFA_USB)
+## ADD MEGN540 Library
 
-# Add Lab Subdirectories
+file(GLOB CALC_CPP_LIB_SRC_FILES "${CALC_C_LIB_PATH}/*.cpp") # Load all files in src folder
+file(GLOB CALC_C_LIB_SRC_FILES "${CALC_C_LIB_PATH}/*.c")
+add_avr_library( CALCULATOR ${CALC_CPP_LIB_SRC_FILES} ${CALC_C_LIB_SRC_FILES} )
+avr_target_link_libraries(CALCULATOR LUFA_USB)
+
+## Add Lab Subdirectories
+# add_subdirectory(Lab0-Blink)
+# add_subdirectory(Lab1-Serial)
+# add_subdirectory(Lab2-Timing)
+# add_subdirectory(Lab3-Encoder)
+# add_subdirectory(Lab4-MotorPWM)
 # add_subdirectory(Lab5-Control)
-# add_subdirectory(Balance)
-# add_subdirectory(Balance2)
-# add_subdirectory(ControlTest)
+
+## Add Executable
+#file(GLOB LAB_SRC_FILES "*.c") #c->cpp
+file(GLOB CALC_SRC_FILES_CPP "*.cpp")
+# Create one target
+add_avr_executable(Calc  ${CALC_SRC_FILES_CPP} )
+
+# LINK Agains LUFA Libarary 
+avr_target_link_libraries(Calc LUFA_USB CALCULATOR)
 

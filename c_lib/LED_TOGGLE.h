@@ -1,8 +1,8 @@
 /*
  * LED_TOGGLE.h
  *
- * Created: 3/10/2022 1:25:49 PM
- *  Author: Matthew
+ * Author: Emil Muly
+ * 
  */ 
 
 
@@ -10,9 +10,12 @@
 #define LED_TOGGLE_H_
 
 #include <avr/io.h>
-#define DEBUG_DDR DDRF
-#define DEBUG_LED4  PORTF0
-#define DEBUG_LED5  PORTF1
+#define DEBUG_DDR DDRC
+#define DEBUG_REDLED PORTC7
+
+// #define DEBUG_DDR DDRF
+// #define DEBUG_LED4  PORTF0
+// #define DEBUG_LED5  PORTF1
 
 #define initialize_LED(ddr, pin)  ddr |= (1 << pin)    // Make pin 13 be an output.
 

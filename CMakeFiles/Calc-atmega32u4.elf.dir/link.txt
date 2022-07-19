@@ -1,0 +1,1 @@
+/usr/bin/avr-g++  -Os  -mmcu=atmega32u4 -Wl,--gc-sections -mrelax -Wl,-Map,Calc-atmega32u4.map CMakeFiles/Calc-atmega32u4.elf.dir/Calc.cpp.obj  -o Calc-atmega32u4.elf libLUFA_USB-atmega32u4.a libCALCULATOR-atmega32u4.a libLUFA_USB-atmega32u4.a 

@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mule/Documents/Calculator/Calc.cpp
+Calculator.h
+/home/mule/Documents/Calculator/Calculator.h
+
+c_lib/Calculator.h
+avr/io.h
+-
+LED_TOGGLE.h
+c_lib/LED_TOGGLE.h
+
+c_lib/LED_TOGGLE.h
+avr/io.h
+-
+

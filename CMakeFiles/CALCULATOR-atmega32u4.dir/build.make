@@ -57,9 +57,33 @@ include CMakeFiles/CALCULATOR-atmega32u4.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/CALCULATOR-atmega32u4.dir/flags.make
 
+CMakeFiles/CALCULATOR-atmega32u4.dir/c_lib/KeypadMatrix.cpp.obj: CMakeFiles/CALCULATOR-atmega32u4.dir/flags.make
+CMakeFiles/CALCULATOR-atmega32u4.dir/c_lib/KeypadMatrix.cpp.obj: c_lib/KeypadMatrix.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mule/Documents/Calculator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CALCULATOR-atmega32u4.dir/c_lib/KeypadMatrix.cpp.obj"
+	/usr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CALCULATOR-atmega32u4.dir/c_lib/KeypadMatrix.cpp.obj -c /home/mule/Documents/Calculator/c_lib/KeypadMatrix.cpp
+
+CMakeFiles/CALCULATOR-atmega32u4.dir/c_lib/KeypadMatrix.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CALCULATOR-atmega32u4.dir/c_lib/KeypadMatrix.cpp.i"
+	/usr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mule/Documents/Calculator/c_lib/KeypadMatrix.cpp > CMakeFiles/CALCULATOR-atmega32u4.dir/c_lib/KeypadMatrix.cpp.i
+
+CMakeFiles/CALCULATOR-atmega32u4.dir/c_lib/KeypadMatrix.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CALCULATOR-atmega32u4.dir/c_lib/KeypadMatrix.cpp.s"
+	/usr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mule/Documents/Calculator/c_lib/KeypadMatrix.cpp -o CMakeFiles/CALCULATOR-atmega32u4.dir/c_lib/KeypadMatrix.cpp.s
+
+CMakeFiles/CALCULATOR-atmega32u4.dir/c_lib/KeypadMatrix.cpp.obj.requires:
+
+.PHONY : CMakeFiles/CALCULATOR-atmega32u4.dir/c_lib/KeypadMatrix.cpp.obj.requires
+
+CMakeFiles/CALCULATOR-atmega32u4.dir/c_lib/KeypadMatrix.cpp.obj.provides: CMakeFiles/CALCULATOR-atmega32u4.dir/c_lib/KeypadMatrix.cpp.obj.requires
+	$(MAKE) -f CMakeFiles/CALCULATOR-atmega32u4.dir/build.make CMakeFiles/CALCULATOR-atmega32u4.dir/c_lib/KeypadMatrix.cpp.obj.provides.build
+.PHONY : CMakeFiles/CALCULATOR-atmega32u4.dir/c_lib/KeypadMatrix.cpp.obj.provides
+
+CMakeFiles/CALCULATOR-atmega32u4.dir/c_lib/KeypadMatrix.cpp.obj.provides.build: CMakeFiles/CALCULATOR-atmega32u4.dir/c_lib/KeypadMatrix.cpp.obj
+
+
 CMakeFiles/CALCULATOR-atmega32u4.dir/c_lib/LCD.cpp.obj: CMakeFiles/CALCULATOR-atmega32u4.dir/flags.make
 CMakeFiles/CALCULATOR-atmega32u4.dir/c_lib/LCD.cpp.obj: c_lib/LCD.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mule/Documents/Calculator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CALCULATOR-atmega32u4.dir/c_lib/LCD.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mule/Documents/Calculator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/CALCULATOR-atmega32u4.dir/c_lib/LCD.cpp.obj"
 	/usr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CALCULATOR-atmega32u4.dir/c_lib/LCD.cpp.obj -c /home/mule/Documents/Calculator/c_lib/LCD.cpp
 
 CMakeFiles/CALCULATOR-atmega32u4.dir/c_lib/LCD.cpp.i: cmake_force
@@ -81,17 +105,45 @@ CMakeFiles/CALCULATOR-atmega32u4.dir/c_lib/LCD.cpp.obj.provides: CMakeFiles/CALC
 CMakeFiles/CALCULATOR-atmega32u4.dir/c_lib/LCD.cpp.obj.provides.build: CMakeFiles/CALCULATOR-atmega32u4.dir/c_lib/LCD.cpp.obj
 
 
+CMakeFiles/CALCULATOR-atmega32u4.dir/c_lib/Timing.cpp.obj: CMakeFiles/CALCULATOR-atmega32u4.dir/flags.make
+CMakeFiles/CALCULATOR-atmega32u4.dir/c_lib/Timing.cpp.obj: c_lib/Timing.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mule/Documents/Calculator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/CALCULATOR-atmega32u4.dir/c_lib/Timing.cpp.obj"
+	/usr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CALCULATOR-atmega32u4.dir/c_lib/Timing.cpp.obj -c /home/mule/Documents/Calculator/c_lib/Timing.cpp
+
+CMakeFiles/CALCULATOR-atmega32u4.dir/c_lib/Timing.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CALCULATOR-atmega32u4.dir/c_lib/Timing.cpp.i"
+	/usr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mule/Documents/Calculator/c_lib/Timing.cpp > CMakeFiles/CALCULATOR-atmega32u4.dir/c_lib/Timing.cpp.i
+
+CMakeFiles/CALCULATOR-atmega32u4.dir/c_lib/Timing.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CALCULATOR-atmega32u4.dir/c_lib/Timing.cpp.s"
+	/usr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mule/Documents/Calculator/c_lib/Timing.cpp -o CMakeFiles/CALCULATOR-atmega32u4.dir/c_lib/Timing.cpp.s
+
+CMakeFiles/CALCULATOR-atmega32u4.dir/c_lib/Timing.cpp.obj.requires:
+
+.PHONY : CMakeFiles/CALCULATOR-atmega32u4.dir/c_lib/Timing.cpp.obj.requires
+
+CMakeFiles/CALCULATOR-atmega32u4.dir/c_lib/Timing.cpp.obj.provides: CMakeFiles/CALCULATOR-atmega32u4.dir/c_lib/Timing.cpp.obj.requires
+	$(MAKE) -f CMakeFiles/CALCULATOR-atmega32u4.dir/build.make CMakeFiles/CALCULATOR-atmega32u4.dir/c_lib/Timing.cpp.obj.provides.build
+.PHONY : CMakeFiles/CALCULATOR-atmega32u4.dir/c_lib/Timing.cpp.obj.provides
+
+CMakeFiles/CALCULATOR-atmega32u4.dir/c_lib/Timing.cpp.obj.provides.build: CMakeFiles/CALCULATOR-atmega32u4.dir/c_lib/Timing.cpp.obj
+
+
 # Object files for target CALCULATOR-atmega32u4
 CALCULATOR__atmega32u4_OBJECTS = \
-"CMakeFiles/CALCULATOR-atmega32u4.dir/c_lib/LCD.cpp.obj"
+"CMakeFiles/CALCULATOR-atmega32u4.dir/c_lib/KeypadMatrix.cpp.obj" \
+"CMakeFiles/CALCULATOR-atmega32u4.dir/c_lib/LCD.cpp.obj" \
+"CMakeFiles/CALCULATOR-atmega32u4.dir/c_lib/Timing.cpp.obj"
 
 # External object files for target CALCULATOR-atmega32u4
 CALCULATOR__atmega32u4_EXTERNAL_OBJECTS =
 
+libCALCULATOR-atmega32u4.a: CMakeFiles/CALCULATOR-atmega32u4.dir/c_lib/KeypadMatrix.cpp.obj
 libCALCULATOR-atmega32u4.a: CMakeFiles/CALCULATOR-atmega32u4.dir/c_lib/LCD.cpp.obj
+libCALCULATOR-atmega32u4.a: CMakeFiles/CALCULATOR-atmega32u4.dir/c_lib/Timing.cpp.obj
 libCALCULATOR-atmega32u4.a: CMakeFiles/CALCULATOR-atmega32u4.dir/build.make
 libCALCULATOR-atmega32u4.a: CMakeFiles/CALCULATOR-atmega32u4.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mule/Documents/Calculator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libCALCULATOR-atmega32u4.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mule/Documents/Calculator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libCALCULATOR-atmega32u4.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/CALCULATOR-atmega32u4.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CALCULATOR-atmega32u4.dir/link.txt --verbose=$(VERBOSE)
 
@@ -100,7 +152,9 @@ CMakeFiles/CALCULATOR-atmega32u4.dir/build: libCALCULATOR-atmega32u4.a
 
 .PHONY : CMakeFiles/CALCULATOR-atmega32u4.dir/build
 
+CMakeFiles/CALCULATOR-atmega32u4.dir/requires: CMakeFiles/CALCULATOR-atmega32u4.dir/c_lib/KeypadMatrix.cpp.obj.requires
 CMakeFiles/CALCULATOR-atmega32u4.dir/requires: CMakeFiles/CALCULATOR-atmega32u4.dir/c_lib/LCD.cpp.obj.requires
+CMakeFiles/CALCULATOR-atmega32u4.dir/requires: CMakeFiles/CALCULATOR-atmega32u4.dir/c_lib/Timing.cpp.obj.requires
 
 .PHONY : CMakeFiles/CALCULATOR-atmega32u4.dir/requires
 

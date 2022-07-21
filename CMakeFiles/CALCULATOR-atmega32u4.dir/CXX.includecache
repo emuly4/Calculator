@@ -6,5 +6,31 @@
 
 #IncludeRegexTransform: 
 
+/home/mule/Documents/Calculator/c_lib/DigitalIO.h
+avr/io.h
+-
+
+/home/mule/Documents/Calculator/c_lib/KeypadMatrix.cpp
+
 /home/mule/Documents/Calculator/c_lib/LCD.cpp
+LCD.h
+/home/mule/Documents/Calculator/c_lib/LCD.h
+
+/home/mule/Documents/Calculator/c_lib/LCD.h
+DigitalIO.h
+/home/mule/Documents/Calculator/c_lib/DigitalIO.h
+Timing.h
+/home/mule/Documents/Calculator/c_lib/Timing.h
+
+/home/mule/Documents/Calculator/c_lib/Timing.cpp
+Timing.h
+/home/mule/Documents/Calculator/c_lib/Timing.h
+
+/home/mule/Documents/Calculator/c_lib/Timing.h
+avr/io.h
+-
+avr/interrupt.h
+-
+ctype.h
+-
 

@@ -1,2 +1,2 @@
-/usr/bin/avr-ar qc libCALCULATOR-atmega32u4.a  CMakeFiles/CALCULATOR-atmega32u4.dir/c_lib/LCD.cpp.obj
+/usr/bin/avr-ar qc libCALCULATOR-atmega32u4.a  CMakeFiles/CALCULATOR-atmega32u4.dir/c_lib/KeypadMatrix.cpp.obj CMakeFiles/CALCULATOR-atmega32u4.dir/c_lib/LCD.cpp.obj CMakeFiles/CALCULATOR-atmega32u4.dir/c_lib/Timing.cpp.obj
 /usr/bin/avr-ranlib libCALCULATOR-atmega32u4.a

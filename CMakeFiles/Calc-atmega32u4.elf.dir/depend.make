@@ -3,5 +3,8 @@
 
 CMakeFiles/Calc-atmega32u4.elf.dir/Calc.cpp.obj: Calc.cpp
 CMakeFiles/Calc-atmega32u4.elf.dir/Calc.cpp.obj: c_lib/Calculator.h
+CMakeFiles/Calc-atmega32u4.elf.dir/Calc.cpp.obj: c_lib/DigitalIO.h
+CMakeFiles/Calc-atmega32u4.elf.dir/Calc.cpp.obj: c_lib/LCD.h
 CMakeFiles/Calc-atmega32u4.elf.dir/Calc.cpp.obj: c_lib/LED_TOGGLE.h
+CMakeFiles/Calc-atmega32u4.elf.dir/Calc.cpp.obj: c_lib/Timing.h
 

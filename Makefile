@@ -267,6 +267,33 @@ Calc.cpp.s:
 	$(MAKE) -f CMakeFiles/Calc-atmega32u4.elf.dir/build.make CMakeFiles/Calc-atmega32u4.elf.dir/Calc.cpp.s
 .PHONY : Calc.cpp.s
 
+c_lib/KeypadMatrix.obj: c_lib/KeypadMatrix.cpp.obj
+
+.PHONY : c_lib/KeypadMatrix.obj
+
+# target to build an object file
+c_lib/KeypadMatrix.cpp.obj:
+	$(MAKE) -f CMakeFiles/CALCULATOR-atmega32u4.dir/build.make CMakeFiles/CALCULATOR-atmega32u4.dir/c_lib/KeypadMatrix.cpp.obj
+.PHONY : c_lib/KeypadMatrix.cpp.obj
+
+c_lib/KeypadMatrix.i: c_lib/KeypadMatrix.cpp.i
+
+.PHONY : c_lib/KeypadMatrix.i
+
+# target to preprocess a source file
+c_lib/KeypadMatrix.cpp.i:
+	$(MAKE) -f CMakeFiles/CALCULATOR-atmega32u4.dir/build.make CMakeFiles/CALCULATOR-atmega32u4.dir/c_lib/KeypadMatrix.cpp.i
+.PHONY : c_lib/KeypadMatrix.cpp.i
+
+c_lib/KeypadMatrix.s: c_lib/KeypadMatrix.cpp.s
+
+.PHONY : c_lib/KeypadMatrix.s
+
+# target to generate assembly for a file
+c_lib/KeypadMatrix.cpp.s:
+	$(MAKE) -f CMakeFiles/CALCULATOR-atmega32u4.dir/build.make CMakeFiles/CALCULATOR-atmega32u4.dir/c_lib/KeypadMatrix.cpp.s
+.PHONY : c_lib/KeypadMatrix.cpp.s
+
 c_lib/LCD.obj: c_lib/LCD.cpp.obj
 
 .PHONY : c_lib/LCD.obj
@@ -293,6 +320,33 @@ c_lib/LCD.s: c_lib/LCD.cpp.s
 c_lib/LCD.cpp.s:
 	$(MAKE) -f CMakeFiles/CALCULATOR-atmega32u4.dir/build.make CMakeFiles/CALCULATOR-atmega32u4.dir/c_lib/LCD.cpp.s
 .PHONY : c_lib/LCD.cpp.s
+
+c_lib/Timing.obj: c_lib/Timing.cpp.obj
+
+.PHONY : c_lib/Timing.obj
+
+# target to build an object file
+c_lib/Timing.cpp.obj:
+	$(MAKE) -f CMakeFiles/CALCULATOR-atmega32u4.dir/build.make CMakeFiles/CALCULATOR-atmega32u4.dir/c_lib/Timing.cpp.obj
+.PHONY : c_lib/Timing.cpp.obj
+
+c_lib/Timing.i: c_lib/Timing.cpp.i
+
+.PHONY : c_lib/Timing.i
+
+# target to preprocess a source file
+c_lib/Timing.cpp.i:
+	$(MAKE) -f CMakeFiles/CALCULATOR-atmega32u4.dir/build.make CMakeFiles/CALCULATOR-atmega32u4.dir/c_lib/Timing.cpp.i
+.PHONY : c_lib/Timing.cpp.i
+
+c_lib/Timing.s: c_lib/Timing.cpp.s
+
+.PHONY : c_lib/Timing.s
+
+# target to generate assembly for a file
+c_lib/Timing.cpp.s:
+	$(MAKE) -f CMakeFiles/CALCULATOR-atmega32u4.dir/build.make CMakeFiles/CALCULATOR-atmega32u4.dir/c_lib/Timing.cpp.s
+.PHONY : c_lib/Timing.cpp.s
 
 c_lib/USB_Config/Descriptors.obj: c_lib/USB_Config/Descriptors.c.obj
 
@@ -720,9 +774,15 @@ help:
 	@echo "... Calc.obj"
 	@echo "... Calc.i"
 	@echo "... Calc.s"
+	@echo "... c_lib/KeypadMatrix.obj"
+	@echo "... c_lib/KeypadMatrix.i"
+	@echo "... c_lib/KeypadMatrix.s"
 	@echo "... c_lib/LCD.obj"
 	@echo "... c_lib/LCD.i"
 	@echo "... c_lib/LCD.s"
+	@echo "... c_lib/Timing.obj"
+	@echo "... c_lib/Timing.i"
+	@echo "... c_lib/Timing.s"
 	@echo "... c_lib/USB_Config/Descriptors.obj"
 	@echo "... c_lib/USB_Config/Descriptors.i"
 	@echo "... c_lib/USB_Config/Descriptors.s"

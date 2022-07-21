@@ -15,8 +15,32 @@ avr/io.h
 -
 LED_TOGGLE.h
 c_lib/LED_TOGGLE.h
+LCD.h
+c_lib/LCD.h
+DigitalIO.h
+c_lib/DigitalIO.h
+Timing.h
+c_lib/Timing.h
+
+c_lib/DigitalIO.h
+avr/io.h
+-
+
+c_lib/LCD.h
+DigitalIO.h
+c_lib/DigitalIO.h
+Timing.h
+c_lib/Timing.h
 
 c_lib/LED_TOGGLE.h
 avr/io.h
+-
+
+c_lib/Timing.h
+avr/io.h
+-
+avr/interrupt.h
+-
+ctype.h
 -
 

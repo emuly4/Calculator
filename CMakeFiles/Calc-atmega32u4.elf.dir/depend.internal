@@ -4,4 +4,7 @@
 CMakeFiles/Calc-atmega32u4.elf.dir/Calc.cpp.obj
  /home/mule/Documents/Calculator/Calc.cpp
  c_lib/Calculator.h
+ c_lib/DigitalIO.h
+ c_lib/LCD.h
  c_lib/LED_TOGGLE.h
+ c_lib/Timing.h

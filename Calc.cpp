@@ -14,6 +14,9 @@ This file contains the main loop for the calculator program.
 #include "Calculator.h"
 
 //Initializations
+    //Timing
+    // Initialize_Timing();
+    
     //LCD Screen
     LCDScreen DisplayScreen;
     //Keypad Matrix
@@ -21,6 +24,7 @@ This file contains the main loop for the calculator program.
 //Main Loop
 int main(void){
     initialize_LED(DEBUG_DDR, DEBUG_REDLED);
+    Initialize_Timing();
     DisplayScreen.initializeLCD();
     //Infinite While
     while(1){
